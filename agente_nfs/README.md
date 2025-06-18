@@ -6,6 +6,10 @@
 
 python main.py
 
-* Observação a maquina precisa ter 5.9 GiB de memoria caso contratio ele vai gerar um erro:
-  Assistente: Erro ao processar pergunta: Ollama call failed with status code 500. Details: 
+* Observação:
+  A maquina precisa ter 5.9 GiB de memoria Live só para o OLLAMA server executar,
+  caso contratio ele vai gerar um erro:
+  
+  Assistente: 
+  Erro ao processar pergunta: Ollama call failed with status code 500. Details: 
   {"error":"model requires more system memory (5.9 GiB) than is available (2.5 GiB)"}
