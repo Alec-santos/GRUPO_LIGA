@@ -6,13 +6,8 @@ authors = [
     {name = "Alec-santos",email = "alecsantos@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 dependencies = [
-    "pandas (>=2.3.0,<3.0.0)",
-    "ollama (>=0.5.1,<0.6.0)",
-    "requests (>=2.32.4,<3.0.0)",
-    "numpy (>=2.3.0,<3.0.0)",
-    "six (>=1.17.0,<2.0.0)"
 ]
 
 [tool.poetry]
