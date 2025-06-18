@@ -1,5 +1,6 @@
 # Repositorio do curso I2A2
 
-# GRUPO_LIGA
+# Grupo: L.I.G.A. - Laboratório de Inteligência Generativa Artificial
 
-# Projeto Relatorio - Desafio 2 - 18/06
+# Desafio 2 - 18/06
+  * Projeto para criar um ChatBot de Notas Fiscais com base nos arquivs CVS pasta [agente_nfs]
