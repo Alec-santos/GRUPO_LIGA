@@ -212,7 +212,7 @@ class NotaFiscalChatBot:
             # Top clientes
             if analysis_type == "cliente" and ("top" in query_lower or "maior" in query_lower):
                 if self.destinatario_cols:
-                    field = self.destinatario_cols[0]
+                    field = self.destinatario_cols[1]
                     value_field = "VALOR_TOTAL" if "VALOR_TOTAL" in self.columns else "VALOR_NOTA_FISCAL"
                     top_clients = self.group_by_field(field, value_field, "sum", 5)
                     
@@ -224,7 +224,7 @@ class NotaFiscalChatBot:
             # Top fornecedores
             elif analysis_type == "fornecedor" and ("top" in query_lower or "maior" in query_lower):
                 if self.emitente_cols:
-                    field = self.emitente_cols[0]
+                    field = self.emitente_cols[1]
                     value_field = "VALOR_TOTAL" if "VALOR_TOTAL" in self.columns else "VALOR_NOTA_FISCAL"
                     top_suppliers = self.group_by_field(field, value_field, "sum", 5)
                     
