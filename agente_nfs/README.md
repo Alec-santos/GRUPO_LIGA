@@ -4,9 +4,13 @@
 
 * Observação:
 
+  - O sistema só funcionará no S.O. Linux.
+
+  - Na mesma pasta do executável é preciso ter a pasta [data] com os arquivos csv dentro, para o sistema conseguir ler os dados.
+
   - Para o sistema de chatbot de notas fiscais funcionar é preciso instalar o Ollama no computador.
   
-  - O computador precisa ter 6 Gib de memória Live só para o Ollama server executar,
+  - O computador precisa ter 6 Gb de memória livre só para o Ollama server executar,
     caso contrário ele vai gerar um erro:
     
 		Assistente:			
@@ -14,34 +18,30 @@
 		{"error":"model requires more system memory (5.9 GiB) than is available (2.5 GiB)"}
 
 
-* Instalar o servidor OLLAMA no computador
+* Instalar o servidor Ollama no computador
 	
 		curl -fsSL https://ollama.com/install.sh | sh
 
-  - Executrar o serviço llama3 no Ollama
+  - Executar o serviço llama3 no Ollama
 	
 		ollama run llama3
 
 
 * Código fonte e o executável do sistema chatbot de notas fiscais: 
 
-  - Em um terminal e faça o clone da pasta [GRUPO_LIGA]
+  - Em um terminal, faça o clone da pasta [GRUPO_LIGA]
   	
-  	Em seguida acesse a pasta [agente_nfs] onde econtra-se o codigo fonte, 
-    e na pasta [agente_nfs/dist] encotrara o executavel do chatbot um arquivo binario [main].
+  	Em seguida acesse a pasta [agente_nfs] onde vai encontrar o código fonte, 
+    e na pasta [agente_nfs/dist] vai encontrar um arquivo binario que é o executável do chatbot [main].
 
 		./agente_nfs/dist/main
 		ou 
 		./main
   	
-    Obs.: Para compilar o codifo fonte é preciso criar um ambinete virtual no python 3.12.11.
+    Obs.: Para compilar o código fonte é preciso criar um ambiente virtual no python 3.12.11.
 
   - Caso tenha algum problema para executar o sistema de chatbot, baixe o sistema do google drive 
 	
 		https://drive.google.com/drive/folders/11OEEUWhiPTQOOtvTxx5xGFoG68qJkH98
-
-  - O sistema pode ser executado no Linux e no Windows: 
-	
-		./main
 		
 
