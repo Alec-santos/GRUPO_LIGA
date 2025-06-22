@@ -49,7 +49,7 @@
 	
 	  https://drive.google.com/drive/folders/11OEEUWhiPTQOOtvTxx5xGFoG68qJkH98
 	  
-# Imagens do sistema - chatbot de nostas fiscais.
+# Imagens do sistema - ChatBot de nostas fiscais.
 		
 * Figura 01 - Tela inicial do sistema onde o usuario irá interagir com o agente.
 
