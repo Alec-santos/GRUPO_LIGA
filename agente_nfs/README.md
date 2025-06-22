@@ -49,17 +49,20 @@
 	
 	  https://drive.google.com/drive/folders/11OEEUWhiPTQOOtvTxx5xGFoG68qJkH98
 	  
+
 		
 * Figura 01 - Tela inicial do sistema onde o usuario irá interagir com o agente.
 
-	![Tela inicial](./img/tela1.png)
+	![Tela1](./img/tela1.png)
+
 	
 * Figura 02 - Tela de ajuda onde o usuario digitou "ajuda"
 
-	![Tela ajuda](./img/tela2.png)
+	![Tela2](./img/tela2.png)
+
 	
 * Figura 03 - Tela de resposta depois de ter digitado "Mostre estatisticas gerais dos dados"
 
-	![Tela resposta](./img/tela3.png)
+	![Tela3](./img/tela3.png)
 	
 
