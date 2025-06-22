@@ -4,7 +4,7 @@
 
 * Observação:
 
-  - O sistema só funcionará no S.O. Linux.
+  - O executável só funcionará no Linux (ubuntu/debian)
 
   - Na mesma pasta do executável é preciso ter a pasta [data] com os arquivos csv dentro, para o sistema conseguir ler os dados.
 
@@ -43,5 +43,6 @@
   - Caso tenha algum problema para executar o sistema de chatbot, baixe o sistema do google drive 
 	
 	  https://drive.google.com/drive/folders/11OEEUWhiPTQOOtvTxx5xGFoG68qJkH98
+	  
 		
 
