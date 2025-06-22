@@ -2,9 +2,9 @@
 
 # Projeto de ChatBot para notas fiscais.
 
-	o chatbot de notas fiscais é um sistema local que só funciona no terminal, 
-	ele usa os arquivos de csv como base para realizar as suas pesquisas.
-	Segue mais abaixo as imagens do sistema funcionando:
+  o chatbot de notas fiscais é um sistema local que só funciona no terminal,
+  ele usa os arquivos de csv como base para realizar as suas pesquisas.
+  Segue mais abaixo as imagens do sistema funcionando:
 	
 	
 * Observação:
