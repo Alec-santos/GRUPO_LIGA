@@ -2,8 +2,12 @@
 
 # Projeto de ChatBot para notas fiscais.
 
-  O chatbot de notas fiscais é um sistema local que funciona via terminal,
-  ele usa os arquivos de csv como base para realizar as suas pesquisas e análise conforme a pergunta do usuário,
+  O agente de chatbot de notas fiscais é um sistema 100% local que funciona via terminal,
+  e por isso o sistema vai depender da capacidade da sua maquina, 
+  para um PC mediano Intel Quad Core de 8 Gb de ram, 
+  ele pode levar em média de 5 a 10 minutos para responder, 
+  fazendo consulta nos arquivos de csv como base de dados, 
+  para realizar as análises conforme a pergunta do usuário,
   Segue mais abaixo as imagens do sistema funcionando:
 	
 	
