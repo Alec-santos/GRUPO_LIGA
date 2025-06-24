@@ -11,7 +11,11 @@
 
   - O executável só funcionará no Linux (ubuntu/debian)
 
-  - Na mesma pasta do executável é preciso ter a pasta [data] com os arquivos csv dentro, para o sistema conseguir ler os dados.
+  - Na mesma pasta do executável é preciso ter a pasta [data] com os arquivos csv dentro, 
+  para o sistema conseguir ler os dados (data/*csv).
+		
+		..data/*csv
+		..main 
 
   - Para o sistema de chatbot de notas fiscais funcionar é preciso instalar o Ollama no computador.
   
