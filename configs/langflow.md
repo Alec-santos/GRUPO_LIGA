@@ -6,7 +6,7 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
 
 1. Precisa ter instalado docker na máquina, segue o passos para instalar:
 
- * Configurar o Docker aptrepositório. 
+ - Configurar o Docker aptrepositório. 
   
 		# Add Docker's official GPG key:
 		sudo apt-get update
@@ -22,15 +22,15 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
 			sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 		sudo apt-get update
 
- * Para instalar a versão mais recente, execute:
+ - Para instalar a versão mais recente, execute:
   
 		sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
- * Verifique se a instalação foi bem-sucedida executando o hello-worldimagem:
+ - Verifique se a instalação foi bem-sucedida executando o hello-worldimagem:
   
 		sudo docker run hello-world
 
- * Para maiores detalhes segue o link abaxo:
+ - Para maiores detalhes segue o link abaxo:
 
     https://docs.docker.com/engine/install/ubuntu/
 
