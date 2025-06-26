@@ -11,7 +11,7 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
 
 ===================================================================================================
 
-# Sistema Linux (Ubuntu/Debian)	
+## Sistema Linux (Ubuntu/Debian)	
 
 ## 1. Precisa ter o docker instalado na máquina, caso não, segue abaixo a instalação.
 
@@ -104,6 +104,6 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
 ===================================================================================================
 
 
-# Sistema Windows (10/11).
+## Sistema Windows (10/11)
 
 
