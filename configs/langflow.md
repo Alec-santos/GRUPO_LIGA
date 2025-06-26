@@ -107,13 +107,20 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
 
 ## Sistema Windows (10/11)
 
+
 ## 1. Precisa ter o docker instalado na máquina, caso não, segue abaixo a instalação.
 
- - Configurar o docker apt repositório:
-  
+ - Verificar se o docker já está instalado, no PowerShell ou Prompt de Comando (cmd), digite:
+ 
+		docker --version
 
- - Para instalar a versão mais recente, execute:
-  
+ - Instalar o Docker Desktop no Windows, baixe o executável do link abaixo:
+ 
+	- Clique duas vezes no arquivo baixado, durante a instalação, certifique-se de que a opção 
+	"Use WSL 2 instead of Hyper-V" esteja marcada (recomendado para Windows 10 e 11), 
+	Siga as instruções e reinicie o PC, se necessário.
+
+    https://www.docker.com/products/docker-desktop
 
  - Verifique se a instalação foi bem-sucedida executando o hello-worldimagem:
   
