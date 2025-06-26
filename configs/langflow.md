@@ -10,6 +10,7 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
 
 
 ---
+---
 
 
 ## Sistema Linux (Ubuntu/Debian)	
@@ -112,6 +113,7 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
     https://docs.langflow.org/
 
 
+---
 ---
 
 
