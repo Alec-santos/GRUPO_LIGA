@@ -4,9 +4,9 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
 
 ## Configurando no ambiente: 
 
-* [Linux](# Sistema Linux (Ubuntu/Debian) - sistema operacional.
+* [Linux](#Sistema-Linux-UbuntuDebian) - sistema operacional.
 
-* [Windows](# Sistema Windows (10/11) - sistema operacional. 
+* [Windows](#Sistema-Windows-1011) - sistema operacional. 
 
 
 ===================================================================================================
