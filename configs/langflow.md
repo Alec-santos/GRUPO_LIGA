@@ -79,13 +79,13 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
 
 	- Substitua a linha como mostra abaixo:
 
-		# Substitua:  
+			# Substitua:
 
-		ExecStart=/usr/local/bin/ollama serve
+			ExecStart=/usr/local/bin/ollama serve
 
-		# Por este:
+			# Por este:
 				
-		ExecStart=/usr/bin/env OLLAMA_HOST=0.0.0.0:11434 /usr/local/bin/ollama serve
+			ExecStart=/usr/bin/env OLLAMA_HOST=0.0.0.0:11434 /usr/local/bin/ollama serve
 
 	- Recarregue o systemd e reinicie o serviço:
 
