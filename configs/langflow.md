@@ -169,15 +169,15 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
 	
 	- Procure a linha IPv4 Address (exemplo: 192.168.0.105), é o seu IP local, no PowerShell digite:
 
-		ipconfig
+			ipconfig
 
 	- Crie um redirecionamento da porta com netsh, abra o PowerShell como Administrador e execute:
 
-		netsh interface portproxy add v4tov4 listenport=11434 listenaddress=0.0.0.0 connectport=11434 connectaddress=127.0.0.1
+			netsh interface portproxy add v4tov4 listenport=11434 listenaddress=0.0.0.0 connectport=11434 connectaddress=127.0.0.1
 
 	- Agora containers do Docker podem acessar o Ollama no endereço:
 
-		http://<IP_LOCAL>:11434
+			http://<IP_LOCAL>:11434
 
 
  - Segue o link do site oficial para escolher o modelo LLM que desejar:
