@@ -4,7 +4,7 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
 
 ## Configurando no ambiente Linux
 
-1. Precisa ter instalado docker na máquina, segue o passos para instalar:
+1. Precisa ter o docker instalado na máquina, caso não tenha segue o passos para instalar:
 
  - Configurar o Docker aptrepositório. 
   
@@ -35,6 +35,19 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
     https://docs.docker.com/engine/install/ubuntu/
 
 
-2. Baixar as imagens do docker hub
+2. Baixar as imagens do LangFlow do repositório do docker hub
+
+ - Em um terminal baixe a imagem correspondente à sua ultima versão.
+   Use o seguinte comando para executar o Langflow:
+   
+		docker run -it --rm -p 7860:7860 langflowai/langflow:latest
+   
+ - Acesse o Langflow com o link abaixo no seu navegador da web. 
+
+		http://localhost:7860
+
+
+3. adfasdfasd
+
 
 
