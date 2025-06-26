@@ -75,7 +75,7 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
   
 	- Altere o arquivo de serviço do ollama:
 		
-		sudo nano /etc/systemd/system/ollama.service
+			sudo nano /etc/systemd/system/ollama.service
 
 	- Substitua a linha como mostra abaixo:
 
@@ -89,8 +89,8 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
 
 	- Recarregue o systemd e reinicie o serviço:
 
-		sudo systemctl daemon-reload
-		sudo systemctl restart ollama
+			sudo systemctl daemon-reload
+			sudo systemctl restart ollama
 
  - Segue o link do site oficial para escolher o modelo LLM que desejar:
 
