@@ -9,7 +9,8 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
  * [Windows](#Sistema-Windows-1011) - sistema operacional. 
 
 
-***
+---
+
 
 ## Sistema Linux (Ubuntu/Debian)	
 
@@ -106,4 +107,62 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
 
 ## Sistema Windows (10/11)
 
+## 1. Precisa ter o docker instalado na máquina, caso não, segue abaixo a instalação.
+
+ - Configurar o docker apt repositório:
+  
+
+ - Para instalar a versão mais recente, execute:
+  
+
+ - Verifique se a instalação foi bem-sucedida executando o hello-worldimagem:
+  
+
+ - Para maiores detalhes segue o link abaixo:
+
+    https://docs.docker.com/engine/install/ubuntu/
+
+
+## 2. Baixar as imagens do LangFlow do repositório do docker hub.
+
+ - Em um terminal baixe a imagem correspondente à ultima versão,
+   o comando irá verificar se a imagem existe, caso não, irá fazer o download e em seguida executar o Langflow:
+   
+   
+ - Acesse o Langflow com o link abaixo no seu navegador da web:
+
+
+ - Para maiores detalhes segue o link abaixo:
+
+    https://hub.docker.com/r/langflowai/langflow
+
+ - Para verificar as imagens que existe na maquina:
+
+
+## 3. Baixe o Ollama e os modelos LLM do site oficial.
+
+ - Execute o comando abaixo para instalar o servidor Ollama:
+
+
+ - Para executar o servidor Ollama;
+   A execução é automática porém o servidor só libera a porta 11434 para o IP localhost e como o 
+   Langflow está em um docker ele não vai enxergar o Ollama, Segue abaixo a correção para isso:
+  
+
+ - Segue o link do site oficial para escolher o modelo LLM que desejar:
+
+    https://ollama.com/search
+
+ - Para executar o modelo, o comando verificará se existe o modelo no local, caso não, 
+   irá fazer o download e em seguida executar:
+
+
+ - Para verificar os modelos que existem na maquina:
+
+
+## 4. Segue o link para a documentação do Langflow.
+
+ - Agora é só estudar e ficar, expert... ;)
+
+    https://docs.langflow.org/
 
