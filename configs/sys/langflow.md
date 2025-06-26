@@ -16,7 +16,7 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
 
 ## Sistema Linux (Ubuntu/Debian)	
 
-## 1. Precisa ter o docker instalado na máquina, caso não, segue abaixo a instalação.
+## 1. Precisa ter o docker instalado na máquina, caso não, segue a baixo a instalação.
 
  - Configurar o docker apt repositório:
   
@@ -42,7 +42,7 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
   
 		sudo docker run hello-world
 
- - Para maiores detalhes segue o link abaixo:
+ - Para maiores detalhes segue o link a baixo:
 
     https://docs.docker.com/engine/install/ubuntu/
 
@@ -54,11 +54,11 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
    
 		sudo docker run -it --rm -p 7860:7860 langflowai/langflow:latest
    
- - Acesse o Langflow com o link abaixo no seu navegador da web:
+ - Acesse o Langflow com o link a baixo no seu navegador da web:
 
 		http://localhost:7860
 
- - Para maiores detalhes segue o link abaixo:
+ - Para maiores detalhes segue o link a baixo:
 
     https://hub.docker.com/r/langflowai/langflow
 
@@ -84,7 +84,7 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
 		
 			sudo nano /etc/systemd/system/ollama.service
 
-	- Substitua a linha como mostra abaixo:
+	- Substitua a linha como mostra a baixo:
 
 			# Substitua:
 
@@ -127,13 +127,13 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
 ## Sistema Windows (10/11)
 
 
-## 1. Precisa ter o docker instalado na máquina, caso não, segue abaixo a instalação.
+## 1. Precisa ter o docker instalado na máquina, caso não, segue a baixo a instalação.
 
  - Verificar se o docker já está instalado, no PowerShell ou Prompt de Comando (cmd), digite:
  
 		docker --version
 
- - Instalar o Docker Desktop no Windows, baixe o executável do link abaixo:
+ - Instalar o Docker Desktop no Windows, baixe o executável do link a baixo:
  
  	 - Clique duas vezes no arquivo baixado, durante a instalação, certifique-se de que a opção 
 	 "Use WSL 2 instead of Hyper-V" esteja marcada (recomendado para Windows 10 e 11), 
@@ -153,11 +153,11 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
    
 		docker run -it --rm -p 7860:7860 langflowai/langflow:latest
    
- - Acesse o Langflow com o link abaixo no seu navegador da web:
+ - Acesse o Langflow com o link a baixo no seu navegador da web:
 
 		http://localhost:7860
 
- - Para maiores detalhes segue o link abaixo:
+ - Para maiores detalhes segue o link a baixo:
 
     https://hub.docker.com/r/langflowai/langflow
 
