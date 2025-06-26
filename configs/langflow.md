@@ -165,7 +165,7 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
 	
 	- Após a instalação, o servidor Ollama é iniciado automaticamente, escutando apenas em localhost:11434.
 
-	- Problema: Docker (LangFlow) não consegue acessar o localhost do Windows, o container Docker não enxerga diretamente o localhost do host, então é preciso expor o servidor Ollama na rede local, faça um redirecionar o tráfego de rede.
+	- Problema: Docker (LangFlow) não consegue acessar o localhost do Windows, o container Docker não enxerga diretamente o localhost do host, então é preciso expor o servidor Ollama na rede local, redirecione o tráfego de rede.
 	
 	- Procure a linha IPv4 Address (exemplo: 192.168.0.105), é o seu IP local, no PowerShell digite:
 
