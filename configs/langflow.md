@@ -40,15 +40,19 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
  - Em um terminal baixe a imagem correspondente à ultima versão,
    o comando irá verificar se a imagem existe, caso não, irá fazer o download e em seguida executar o Langflow:
    
-		docker run -it --rm -p 7860:7860 langflowai/langflow:latest
+		sudo docker run -it --rm -p 7860:7860 langflowai/langflow:latest
    
  - Acesse o Langflow com o link abaixo no seu navegador da web:
 
 		http://localhost:7860
 
-- Para maiores detalhes segue o link abaixo:
+ - Para maiores detalhes segue o link abaixo:
 
     https://hub.docker.com/r/langflowai/langflow
+
+ - Para verificar as imagens que existe na maquina:
+
+		sudo docker images
 
 ## 3. Baixe o Ollama e os modelos LLM do site oficial.
 
