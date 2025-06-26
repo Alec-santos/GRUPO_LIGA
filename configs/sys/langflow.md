@@ -68,13 +68,18 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
 
 ## 3. Baixe o Ollama e os modelos LLM do site oficial.
 
- - Execute o comando abaixo para instalar o servidor Ollama:
+ - Execute o comando a baixo para instalar o servidor Ollama:
 
 		curl -fsSL https://ollama.com/install.sh | sh
 
- - A execução Ollama é automática: À um problema, o servidor só libera a porta 11434 para o IP localhost e como o 
-   Langflow está em um docker ele não vai enxergar o Ollama, Segue abaixo a correção para isso:
-  
+ - A execução Ollama é automática: À um problema, o servidor só enxerga localhost:11434, e como o 
+   Langflow está em um docker ele não vai enxergar o Ollama no localhost do PC local, 
+   Segue a baixo a correção para isso:
+
+	- Pare o servidor ollama:
+
+			sudo systemctl stop ollama
+			
 	- Altere o arquivo de serviço do ollama:
 		
 			sudo nano /etc/systemd/system/ollama.service
@@ -169,7 +174,7 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
 	
 	- Após a instalação, o servidor Ollama é iniciado automaticamente, escutando apenas em localhost:11434.
 
-	- Problema: Docker (LangFlow) não consegue acessar o localhost do Windows, o container Docker não enxerga diretamente o localhost do host, então é preciso expor o servidor Ollama na rede local, redirecione o tráfego de rede.
+	- Problema: Docker (LangFlow) não consegue acessar o localhost do Windows, o container Docker não enxerga diretamente o localhost local do PC, então é preciso expor o servidor Ollama na rede local, redirecione o tráfego de rede.
 	
 	- Procure a linha IPv4 Address (exemplo: 192.168.0.105), é o seu IP local, no PowerShell digite:
 
