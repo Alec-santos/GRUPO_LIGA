@@ -4,12 +4,12 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
 
 ## Configurando no ambiente: 
 
-* [Linux](#Sistema-Linux-UbuntuDebian) - sistema operacional.
+ * [Linux](#Sistema-Linux-UbuntuDebian) - sistema operacional.
 
-* [Windows](#Sistema-Windows-1011) - sistema operacional. 
+ * [Windows](#Sistema-Windows-1011) - sistema operacional. 
 
 
-===================================================================================================
+=======================================================================================================================
 
 ## Sistema Linux (Ubuntu/Debian)	
 
@@ -101,7 +101,7 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
     https://docs.langflow.org/
 
 
-===================================================================================================
+=======================================================================================================================
 
 
 ## Sistema Windows (10/11)
