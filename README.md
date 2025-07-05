@@ -9,4 +9,6 @@ Grupo:
 
 * Projeto para criar um agente de ChatBot para pesquisar e analisar as notas fiscais com base nos arquivos csv, um sendo o cabeçalho das notas fiscais e o outro os itens das notas fiscais. Segue abaixo o link para o projeto:
 
-	[agente_nfs](./agente_nfs)
+  * [agente_nfs](./projetos/agente_nfs) - Sistema desktop feito em python.
+	
+  * [flow-notas-fiscais-csv](./projetos/langflow) - Fluxo de tarefas feito no Langflow
