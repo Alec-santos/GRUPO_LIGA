@@ -8,4 +8,4 @@
 
   - [Flow Notas Fiscaril dos arquivos CSV](./flow-notas-fiscais-csv.json) baixe o arquivo para importar noa platafroma 
 
-      [image do fluxo](./flow-notas-fiscais-csv.png)
+      ![Imagem do fluxo:](./flow-notas-fiscais-csv.png)
