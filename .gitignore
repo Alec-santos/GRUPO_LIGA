@@ -1,4 +1,5 @@
 # Ignorar um arquivo específico na raiz do projeto
+.gitignore
 push.sh
 
 # Ignorar um arquivo dentro de uma subpasta
