@@ -1,0 +1,12 @@
+# Ignorar um arquivo específico na raiz do projeto
+push.sh
+
+# Ignorar um arquivo dentro de uma subpasta
+#GRUPO_LIGA/push.sh
+
+# Ignorar tudo dentro de uma pasta
+temp/
+
+# Ignorar todos os arquivos .log
+*.log
+
