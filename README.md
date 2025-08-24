@@ -12,3 +12,4 @@ Grupo:
   * [agente_nfs](./projetos/agente_nfs) - Sistema desktop feito em python para terminal.
 	
   * [flow-notas-fiscais-csv](./projetos/langflow) - Fluxo de tarefas feito no Langflow.
+  

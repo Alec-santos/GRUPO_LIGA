@@ -52,7 +52,15 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
  - Em um terminal baixe a imagem correspondente à ultima versão,
    o comando irá verificar se a imagem existe, caso não, irá fazer o download e em seguida executar o Langflow:
    
-		sudo docker run -it --rm -p 7860:7860 langflowai/langflow:latest
+		sudo docker run -d -p 7860:7860 -- name langflow langflowai/langflow:latest
+
+ - O comando abaixo ira parar a imagem docker do langflow:
+
+		sudo docker stop langflow
+   
+ - O comando abaixo ira iniciar a imagem docker do langflow:
+
+		sudo docker start langflow
    
  - Acesse o Langflow com o link a baixo no seu navegador da web:
 
@@ -151,8 +159,16 @@ Este é um guia para realizar as configurações necessárias para que o LangFlo
  - No PowerShell, baixe a imagem correspondente à ultima versão,
    o comando irá verificar se a imagem existe, caso não, irá fazer o download e em seguida executar o Langflow:
    
-		docker run -it --rm -p 7860:7860 langflowai/langflow:latest
+		docker run -d -p 7860:7860 --name langflow langflowai/langflow:latest
    
+ - O comando abaixo ira parar a imagem do langflow:
+
+		docker stop langflow 
+
+ - O comando abaixo ira iniciar a imagem do langflow:
+
+		docker start langflow 
+
  - Acesse o Langflow com o link a baixo no seu navegador da web:
 
 		http://localhost:7860
