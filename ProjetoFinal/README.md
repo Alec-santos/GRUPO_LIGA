@@ -1,11 +1,7 @@
 Grupo:
 # L.I.G.A. - Laboratório de Inteligência Generativa Artificial
 
-
-## Repositório do curso I2A2
-
-
-## Projeto Final - 02/11
+## Projeto Final do cruso de IA Generativa - 02/11
 
 * O FiscalFlow AI é um sistema desenvolvido para automatizar o processo de análise e auditoria de Notas Fiscais Eletrônicas (NFe), unindo tecnologia de data analytics com agentes de inteligência artificial.
 
