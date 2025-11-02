@@ -1,0 +1,3297 @@
+{
+  "data": {
+    "edges": [
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "Directory",
+            "id": "Directory-Kms4a",
+            "name": "data",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "data_input",
+            "id": "DataConditionalRouter-pz0a7",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__Directory-Kms4a{œdataTypeœ:œDirectoryœ,œidœ:œDirectory-Kms4aœ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}-DataConditionalRouter-pz0a7{œfieldNameœ:œdata_inputœ,œidœ:œDataConditionalRouter-pz0a7œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "Directory-Kms4a",
+        "sourceHandle": "{œdataTypeœ:œDirectoryœ,œidœ:œDirectory-Kms4aœ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}",
+        "target": "DataConditionalRouter-pz0a7",
+        "targetHandle": "{œfieldNameœ:œdata_inputœ,œidœ:œDataConditionalRouter-pz0a7œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "DataConditionalRouter",
+            "id": "DataConditionalRouter-pz0a7",
+            "name": "true_output",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "data",
+            "id": "LoopComponent-NSDeO",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__DataConditionalRouter-pz0a7{œdataTypeœ:œDataConditionalRouterœ,œidœ:œDataConditionalRouter-pz0a7œ,œnameœ:œtrue_outputœ,œoutput_typesœ:[œDataœ]}-LoopComponent-NSDeO{œfieldNameœ:œdataœ,œidœ:œLoopComponent-NSDeOœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "DataConditionalRouter-pz0a7",
+        "sourceHandle": "{œdataTypeœ:œDataConditionalRouterœ,œidœ:œDataConditionalRouter-pz0a7œ,œnameœ:œtrue_outputœ,œoutput_typesœ:[œDataœ]}",
+        "target": "LoopComponent-NSDeO",
+        "targetHandle": "{œfieldNameœ:œdataœ,œidœ:œLoopComponent-NSDeOœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "LoopComponent",
+            "id": "LoopComponent-NSDeO",
+            "name": "item",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_data",
+            "id": "ParserComponent-5VLvN",
+            "inputTypes": [
+              "DataFrame",
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__LoopComponent-NSDeO{œdataTypeœ:œLoopComponentœ,œidœ:œLoopComponent-NSDeOœ,œnameœ:œitemœ,œoutput_typesœ:[œDataœ]}-ParserComponent-5VLvN{œfieldNameœ:œinput_dataœ,œidœ:œParserComponent-5VLvNœ,œinputTypesœ:[œDataFrameœ,œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "LoopComponent-NSDeO",
+        "sourceHandle": "{œdataTypeœ:œLoopComponentœ,œidœ:œLoopComponent-NSDeOœ,œnameœ:œitemœ,œoutput_typesœ:[œDataœ]}",
+        "target": "ParserComponent-5VLvN",
+        "targetHandle": "{œfieldNameœ:œinput_dataœ,œidœ:œParserComponent-5VLvNœ,œinputTypesœ:[œDataFrameœ,œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "LoopComponent",
+            "id": "LoopComponent-NSDeO",
+            "name": "item",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_data",
+            "id": "ParserComponent-ucdiE",
+            "inputTypes": [
+              "DataFrame",
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__LoopComponent-NSDeO{œdataTypeœ:œLoopComponentœ,œidœ:œLoopComponent-NSDeOœ,œnameœ:œitemœ,œoutput_typesœ:[œDataœ]}-ParserComponent-ucdiE{œfieldNameœ:œinput_dataœ,œidœ:œParserComponent-ucdiEœ,œinputTypesœ:[œDataFrameœ,œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "LoopComponent-NSDeO",
+        "sourceHandle": "{œdataTypeœ:œLoopComponentœ,œidœ:œLoopComponent-NSDeOœ,œnameœ:œitemœ,œoutput_typesœ:[œDataœ]}",
+        "target": "ParserComponent-ucdiE",
+        "targetHandle": "{œfieldNameœ:œinput_dataœ,œidœ:œParserComponent-ucdiEœ,œinputTypesœ:[œDataFrameœ,œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ParserComponent",
+            "id": "ParserComponent-ucdiE",
+            "name": "parsed_text",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "pdf_nfe",
+            "id": "Prompt-vWUPt",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__ParserComponent-ucdiE{œdataTypeœ:œParserComponentœ,œidœ:œParserComponent-ucdiEœ,œnameœ:œparsed_textœ,œoutput_typesœ:[œMessageœ]}-Prompt-vWUPt{œfieldNameœ:œpdf_nfeœ,œidœ:œPrompt-vWUPtœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "ParserComponent-ucdiE",
+        "sourceHandle": "{œdataTypeœ:œParserComponentœ,œidœ:œParserComponent-ucdiEœ,œnameœ:œparsed_textœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt-vWUPt",
+        "targetHandle": "{œfieldNameœ:œpdf_nfeœ,œidœ:œPrompt-vWUPtœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "Prompt",
+            "id": "Prompt-vWUPt",
+            "name": "prompt",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "GoogleGenerativeAIModel-wf7B9",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__Prompt-vWUPt{œdataTypeœ:œPromptœ,œidœ:œPrompt-vWUPtœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}-GoogleGenerativeAIModel-wf7B9{œfieldNameœ:œinput_valueœ,œidœ:œGoogleGenerativeAIModel-wf7B9œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "Prompt-vWUPt",
+        "sourceHandle": "{œdataTypeœ:œPromptœ,œidœ:œPrompt-vWUPtœ,œnameœ:œpromptœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "GoogleGenerativeAIModel-wf7B9",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œGoogleGenerativeAIModel-wf7B9œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "GoogleGenerativeAIModel",
+            "id": "GoogleGenerativeAIModel-wf7B9",
+            "name": "text_output",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "json_str",
+            "id": "CustomComponent-wQ8Ni",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__GoogleGenerativeAIModel-wf7B9{œdataTypeœ:œGoogleGenerativeAIModelœ,œidœ:œGoogleGenerativeAIModel-wf7B9œ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-CustomComponent-wQ8Ni{œfieldNameœ:œjson_strœ,œidœ:œCustomComponent-wQ8Niœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "GoogleGenerativeAIModel-wf7B9",
+        "sourceHandle": "{œdataTypeœ:œGoogleGenerativeAIModelœ,œidœ:œGoogleGenerativeAIModel-wf7B9œ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "CustomComponent-wQ8Ni",
+        "targetHandle": "{œfieldNameœ:œjson_strœ,œidœ:œCustomComponent-wQ8Niœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ParseData",
+            "id": "ParseData-QZLx1",
+            "name": "text",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "GoogleGenerativeAIModel-dnnOP",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__ParseData-QZLx1{œdataTypeœ:œParseDataœ,œidœ:œParseData-QZLx1œ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}-GoogleGenerativeAIModel-dnnOP{œfieldNameœ:œinput_valueœ,œidœ:œGoogleGenerativeAIModel-dnnOPœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "ParseData-QZLx1",
+        "sourceHandle": "{œdataTypeœ:œParseDataœ,œidœ:œParseData-QZLx1œ,œnameœ:œtextœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "GoogleGenerativeAIModel-dnnOP",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œGoogleGenerativeAIModel-dnnOPœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "GoogleGenerativeAIModel",
+            "id": "GoogleGenerativeAIModel-dnnOP",
+            "name": "text_output",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "json_str",
+            "id": "JSONValidation-r79Sq",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__GoogleGenerativeAIModel-dnnOP{œdataTypeœ:œGoogleGenerativeAIModelœ,œidœ:œGoogleGenerativeAIModel-dnnOPœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}-JSONValidation-r79Sq{œfieldNameœ:œjson_strœ,œidœ:œJSONValidation-r79Sqœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "GoogleGenerativeAIModel-dnnOP",
+        "sourceHandle": "{œdataTypeœ:œGoogleGenerativeAIModelœ,œidœ:œGoogleGenerativeAIModel-dnnOPœ,œnameœ:œtext_outputœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "JSONValidation-r79Sq",
+        "targetHandle": "{œfieldNameœ:œjson_strœ,œidœ:œJSONValidation-r79Sqœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "JSONValidation",
+            "id": "CustomComponent-wQ8Ni",
+            "name": "data",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "data",
+            "id": "ParseData-QZLx1",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__CustomComponent-wQ8Ni{œdataTypeœ:œJSONValidationœ,œidœ:œCustomComponent-wQ8Niœ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}-ParseData-QZLx1{œfieldNameœ:œdataœ,œidœ:œParseData-QZLx1œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "CustomComponent-wQ8Ni",
+        "sourceHandle": "{œdataTypeœ:œJSONValidationœ,œidœ:œCustomComponent-wQ8Niœ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}",
+        "target": "ParseData-QZLx1",
+        "targetHandle": "{œfieldNameœ:œdataœ,œidœ:œParseData-QZLx1œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "JSONValidation",
+            "id": "CustomComponent-wQ8Ni",
+            "name": "data",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "data_nfe",
+            "id": "CustomComponent-mxU6U",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__CustomComponent-wQ8Ni{œdataTypeœ:œJSONValidationœ,œidœ:œCustomComponent-wQ8Niœ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}-CustomComponent-mxU6U{œfieldNameœ:œdata_nfeœ,œidœ:œCustomComponent-mxU6Uœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "CustomComponent-wQ8Ni",
+        "sourceHandle": "{œdataTypeœ:œJSONValidationœ,œidœ:œCustomComponent-wQ8Niœ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}",
+        "target": "CustomComponent-mxU6U",
+        "targetHandle": "{œfieldNameœ:œdata_nfeœ,œidœ:œCustomComponent-mxU6Uœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ParserComponent",
+            "id": "ParserComponent-5VLvN",
+            "name": "parsed_text",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "file_name",
+            "id": "CustomComponent-mxU6U",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__ParserComponent-5VLvN{œdataTypeœ:œParserComponentœ,œidœ:œParserComponent-5VLvNœ,œnameœ:œparsed_textœ,œoutput_typesœ:[œMessageœ]}-CustomComponent-mxU6U{œfieldNameœ:œfile_nameœ,œidœ:œCustomComponent-mxU6Uœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "ParserComponent-5VLvN",
+        "sourceHandle": "{œdataTypeœ:œParserComponentœ,œidœ:œParserComponent-5VLvNœ,œnameœ:œparsed_textœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "CustomComponent-mxU6U",
+        "targetHandle": "{œfieldNameœ:œfile_nameœ,œidœ:œCustomComponent-mxU6Uœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ParserJSONSQL",
+            "id": "CustomComponent-mxU6U",
+            "name": "output",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "sql_list",
+            "id": "CustomComponent-IGgF9",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__CustomComponent-mxU6U{œdataTypeœ:œParserJSONSQLœ,œidœ:œCustomComponent-mxU6Uœ,œnameœ:œoutputœ,œoutput_typesœ:[œDataœ]}-CustomComponent-IGgF9{œfieldNameœ:œsql_listœ,œidœ:œCustomComponent-IGgF9œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "CustomComponent-mxU6U",
+        "sourceHandle": "{œdataTypeœ:œParserJSONSQLœ,œidœ:œCustomComponent-mxU6Uœ,œnameœ:œoutputœ,œoutput_typesœ:[œDataœ]}",
+        "target": "CustomComponent-IGgF9",
+        "targetHandle": "{œfieldNameœ:œsql_listœ,œidœ:œCustomComponent-IGgF9œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "LoopComponent",
+            "id": "LoopComponent-NSDeO",
+            "name": "done",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "file_list",
+            "id": "CustomComponent-LroWa",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__LoopComponent-NSDeO{œdataTypeœ:œLoopComponentœ,œidœ:œLoopComponent-NSDeOœ,œnameœ:œdoneœ,œoutput_typesœ:[œDataœ]}-CustomComponent-LroWa{œfieldNameœ:œfile_listœ,œidœ:œCustomComponent-LroWaœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "LoopComponent-NSDeO",
+        "sourceHandle": "{œdataTypeœ:œLoopComponentœ,œidœ:œLoopComponent-NSDeOœ,œnameœ:œdoneœ,œoutput_typesœ:[œDataœ]}",
+        "target": "CustomComponent-LroWa",
+        "targetHandle": "{œfieldNameœ:œfile_listœ,œidœ:œCustomComponent-LroWaœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "JSONValidation",
+            "id": "JSONValidation-r79Sq",
+            "name": "data",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "data_analise",
+            "id": "CustomComponent-mxU6U",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__JSONValidation-r79Sq{œdataTypeœ:œJSONValidationœ,œidœ:œJSONValidation-r79Sqœ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}-CustomComponent-mxU6U{œfieldNameœ:œdata_analiseœ,œidœ:œCustomComponent-mxU6Uœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "JSONValidation-r79Sq",
+        "sourceHandle": "{œdataTypeœ:œJSONValidationœ,œidœ:œJSONValidation-r79Sqœ,œnameœ:œdataœ,œoutput_typesœ:[œDataœ]}",
+        "target": "CustomComponent-mxU6U",
+        "targetHandle": "{œfieldNameœ:œdata_analiseœ,œidœ:œCustomComponent-mxU6Uœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "SQLiteRunSQL",
+            "id": "CustomComponent-IGgF9",
+            "name": "output",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "dataType": "LoopComponent",
+            "id": "LoopComponent-NSDeO",
+            "name": "item",
+            "output_types": [
+              "Data"
+            ]
+          }
+        },
+        "id": "xy-edge__CustomComponent-IGgF9{œdataTypeœ:œSQLiteRunSQLœ,œidœ:œCustomComponent-IGgF9œ,œnameœ:œoutputœ,œoutput_typesœ:[œDataœ]}-LoopComponent-NSDeO{œdataTypeœ:œLoopComponentœ,œidœ:œLoopComponent-NSDeOœ,œnameœ:œitemœ,œoutput_typesœ:[œDataœ]}",
+        "selected": false,
+        "source": "CustomComponent-IGgF9",
+        "sourceHandle": "{œdataTypeœ:œSQLiteRunSQLœ,œidœ:œCustomComponent-IGgF9œ,œnameœ:œoutputœ,œoutput_typesœ:[œDataœ]}",
+        "target": "LoopComponent-NSDeO",
+        "targetHandle": "{œdataTypeœ:œLoopComponentœ,œidœ:œLoopComponent-NSDeOœ,œnameœ:œitemœ,œoutput_typesœ:[œDataœ]}"
+      }
+    ],
+    "nodes": [
+      {
+        "data": {
+          "id": "Directory-Kms4a",
+          "node": {
+            "base_classes": [
+              "Data",
+              "DataFrame"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Recursively load files from a directory.",
+            "display_name": "Directory",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "path",
+              "types",
+              "depth",
+              "max_concurrency",
+              "load_hidden",
+              "recursive",
+              "silent_errors",
+              "use_multithreading"
+            ],
+            "frozen": false,
+            "icon": "folder",
+            "legacy": false,
+            "lf_version": "1.4.3",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Data",
+                "hidden": false,
+                "method": "load_directory",
+                "name": "data",
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "DataFrame",
+                "method": "as_dataframe",
+                "name": "dataframe",
+                "selected": "DataFrame",
+                "tool_mode": true,
+                "types": [
+                  "DataFrame"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.base.data.utils import TEXT_FILE_TYPES, parallel_load_data, parse_text_file_to_data, retrieve_file_paths\nfrom langflow.custom import Component\nfrom langflow.io import BoolInput, IntInput, MessageTextInput, MultiselectInput\nfrom langflow.schema import Data\nfrom langflow.schema.dataframe import DataFrame\nfrom langflow.template import Output\n\n\nclass DirectoryComponent(Component):\n    display_name = \"Directory\"\n    description = \"Recursively load files from a directory.\"\n    icon = \"folder\"\n    name = \"Directory\"\n\n    inputs = [\n        MessageTextInput(\n            name=\"path\",\n            display_name=\"Path\",\n            info=\"Path to the directory to load files from. Defaults to current directory ('.')\",\n            value=\".\",\n            tool_mode=True,\n        ),\n        MultiselectInput(\n            name=\"types\",\n            display_name=\"File Types\",\n            info=\"File types to load. Select one or more types or leave empty to load all supported types.\",\n            options=TEXT_FILE_TYPES,\n            value=[],\n        ),\n        IntInput(\n            name=\"depth\",\n            display_name=\"Depth\",\n            info=\"Depth to search for files.\",\n            value=0,\n        ),\n        IntInput(\n            name=\"max_concurrency\",\n            display_name=\"Max Concurrency\",\n            advanced=True,\n            info=\"Maximum concurrency for loading files.\",\n            value=2,\n        ),\n        BoolInput(\n            name=\"load_hidden\",\n            display_name=\"Load Hidden\",\n            advanced=True,\n            info=\"If true, hidden files will be loaded.\",\n        ),\n        BoolInput(\n            name=\"recursive\",\n            display_name=\"Recursive\",\n            advanced=True,\n            info=\"If true, the search will be recursive.\",\n        ),\n        BoolInput(\n            name=\"silent_errors\",\n            display_name=\"Silent Errors\",\n            advanced=True,\n            info=\"If true, errors will not raise an exception.\",\n        ),\n        BoolInput(\n            name=\"use_multithreading\",\n            display_name=\"Use Multithreading\",\n            advanced=True,\n            info=\"If true, multithreading will be used.\",\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Data\", name=\"data\", method=\"load_directory\"),\n        Output(display_name=\"DataFrame\", name=\"dataframe\", method=\"as_dataframe\"),\n    ]\n\n    def load_directory(self) -> list[Data]:\n        path = self.path\n        types = self.types\n        depth = self.depth\n        max_concurrency = self.max_concurrency\n        load_hidden = self.load_hidden\n        recursive = self.recursive\n        silent_errors = self.silent_errors\n        use_multithreading = self.use_multithreading\n\n        resolved_path = self.resolve_path(path)\n\n        # If no types are specified, use all supported types\n        if not types:\n            types = TEXT_FILE_TYPES\n\n        # Check if all specified types are valid\n        invalid_types = [t for t in types if t not in TEXT_FILE_TYPES]\n        if invalid_types:\n            msg = f\"Invalid file types specified: {invalid_types}. Valid types are: {TEXT_FILE_TYPES}\"\n            raise ValueError(msg)\n\n        valid_types = types\n\n        file_paths = retrieve_file_paths(\n            resolved_path, load_hidden=load_hidden, recursive=recursive, depth=depth, types=valid_types\n        )\n\n        loaded_data = []\n        if use_multithreading:\n            loaded_data = parallel_load_data(file_paths, silent_errors=silent_errors, max_concurrency=max_concurrency)\n        else:\n            loaded_data = [parse_text_file_to_data(file_path, silent_errors=silent_errors) for file_path in file_paths]\n\n        valid_data = [x for x in loaded_data if x is not None and isinstance(x, Data)]\n        self.status = valid_data\n        return valid_data\n\n    def as_dataframe(self) -> DataFrame:\n        return DataFrame(self.load_directory())\n"
+              },
+              "depth": {
+                "_input_type": "IntInput",
+                "advanced": false,
+                "display_name": "Depth",
+                "dynamic": false,
+                "info": "Depth to search for files.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "depth",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 0
+              },
+              "load_hidden": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Load Hidden",
+                "dynamic": false,
+                "info": "If true, hidden files will be loaded.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "load_hidden",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              },
+              "max_concurrency": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Max Concurrency",
+                "dynamic": false,
+                "info": "Maximum concurrency for loading files.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_concurrency",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 2
+              },
+              "path": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Path",
+                "dynamic": false,
+                "info": "Path to the directory to load files from. Defaults to current directory ('.')",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "path",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": true,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "/dbase/NFe"
+              },
+              "recursive": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Recursive",
+                "dynamic": false,
+                "info": "If true, the search will be recursive.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "recursive",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              },
+              "silent_errors": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Silent Errors",
+                "dynamic": false,
+                "info": "If true, errors will not raise an exception.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "silent_errors",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              },
+              "types": {
+                "_input_type": "MultiselectInput",
+                "advanced": false,
+                "combobox": false,
+                "display_name": "File Types",
+                "dynamic": false,
+                "info": "File types to load. Select one or more types or leave empty to load all supported types.",
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "types",
+                "options": [
+                  "txt",
+                  "md",
+                  "mdx",
+                  "csv",
+                  "json",
+                  "yaml",
+                  "yml",
+                  "xml",
+                  "html",
+                  "htm",
+                  "pdf",
+                  "docx",
+                  "py",
+                  "sh",
+                  "sql",
+                  "js",
+                  "ts",
+                  "tsx"
+                ],
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": [
+                  "pdf"
+                ]
+              },
+              "use_multithreading": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Use Multithreading",
+                "dynamic": false,
+                "info": "If true, multithreading will be used.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "use_multithreading",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "Directory"
+        },
+        "dragging": false,
+        "id": "Directory-Kms4a",
+        "measured": {
+          "height": 443,
+          "width": 320
+        },
+        "position": {
+          "x": 118.71669656245828,
+          "y": 320.34527985819517
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "DataConditionalRouter-pz0a7",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Route Data object(s) based on a condition applied to a specified key, including boolean validation.",
+            "display_name": "Condition",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "data_input",
+              "key_name",
+              "operator",
+              "compare_value"
+            ],
+            "frozen": false,
+            "icon": "split",
+            "legacy": true,
+            "lf_version": "1.4.3",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "True Output",
+                "hidden": false,
+                "method": "process_data",
+                "name": "true_output",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "False Output",
+                "hidden": null,
+                "method": "process_data",
+                "name": "false_output",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from typing import Any\n\nfrom langflow.custom import Component\nfrom langflow.io import DataInput, DropdownInput, MessageTextInput, Output\nfrom langflow.schema import Data, dotdict\n\n\nclass DataConditionalRouterComponent(Component):\n    display_name = \"Condition\"\n    description = \"Route Data object(s) based on a condition applied to a specified key, including boolean validation.\"\n    icon = \"split\"\n    name = \"DataConditionalRouter\"\n    legacy = True\n\n    inputs = [\n        DataInput(\n            name=\"data_input\",\n            display_name=\"Data Input\",\n            info=\"The Data object or list of Data objects to process\",\n            is_list=True,\n        ),\n        MessageTextInput(\n            name=\"key_name\",\n            display_name=\"Key Name\",\n            info=\"The name of the key in the Data object(s) to check\",\n        ),\n        DropdownInput(\n            name=\"operator\",\n            display_name=\"Operator\",\n            options=[\"equals\", \"not equals\", \"contains\", \"starts with\", \"ends with\", \"boolean validator\"],\n            info=\"The operator to apply for comparing the values. 'boolean validator' treats the value as a boolean.\",\n            value=\"equals\",\n        ),\n        MessageTextInput(\n            name=\"compare_value\",\n            display_name=\"Match Text\",\n            info=\"The value to compare against (not used for boolean validator)\",\n        ),\n    ]\n\n    outputs = [\n        Output(\n            display_name=\"True Output\", \n            name=\"true_output\", \n            method=\"process_data\"\n        ),\n        Output(\n            display_name=\"False Output\", \n            name=\"false_output\", \n            method=\"process_data\"\n        ),\n    ]\n\n    def compare_values(self, item_value: str, compare_value: str, operator: str) -> bool:\n        if operator == \"equals\":\n            return item_value == compare_value\n        if operator == \"not equals\":\n            return item_value != compare_value\n        if operator == \"contains\":\n            return compare_value in item_value\n        if operator == \"starts with\":\n            return item_value.startswith(compare_value)\n        if operator == \"ends with\":\n            return item_value.endswith(compare_value)\n        if operator == \"boolean validator\":\n            return self.parse_boolean(item_value)\n        return False\n\n    def parse_boolean(self, value):\n        if isinstance(value, bool):\n            return value\n        if isinstance(value, str):\n            return value.lower() in {\"true\", \"1\", \"yes\", \"y\", \"on\"}\n        return bool(value)\n\n    def validate_input(self, data_item: Data) -> bool:\n        if not isinstance(data_item, Data):\n            self.status = \"Input is not a Data object\"\n            return False\n        if self.key_name not in data_item.data:\n            self.status = f\"Key '{self.key_name}' not found in Data\"\n            return False\n        return True\n\n    def process_data(self) -> Data | list[Data]:\n        if isinstance(self.data_input, list):\n            true_output = []\n            false_output = []\n            for item in self.data_input:\n                if self.validate_input(item):\n                    result = self.process_single_data(item)\n                    if result:\n                        true_output.append(item)\n                    else:\n                        false_output.append(item)\n            self.stop(\"false_output\" if true_output else \"true_output\")\n            return true_output or false_output\n        if not self.validate_input(self.data_input):\n            return Data(data={\"error\": self.status})\n        result = self.process_single_data(self.data_input)\n        self.stop(\"false_output\" if result else \"true_output\")\n        return self.data_input\n\n    def process_single_data(self, data_item: Data) -> bool:\n        item_value = data_item.data[self.key_name]\n        operator = self.operator\n\n        if operator == \"boolean validator\":\n            condition_met = self.parse_boolean(item_value)\n            condition_description = f\"Boolean validation of '{self.key_name}'\"\n        else:\n            compare_value = self.compare_value\n            condition_met = self.compare_values(str(item_value), compare_value, operator)\n            condition_description = f\"{self.key_name} {operator} {compare_value}\"\n\n        if condition_met:\n            self.status = f\"Condition met: {condition_description}\"\n            return True\n        self.status = f\"Condition not met: {condition_description}\"\n        return False\n\n    def update_build_config(self, build_config: dotdict, field_value: Any, field_name: str | None = None):\n        if field_name == \"operator\":\n            if field_value == \"boolean validator\":\n                build_config[\"compare_value\"][\"show\"] = False\n                build_config[\"compare_value\"][\"advanced\"] = True\n                build_config[\"compare_value\"][\"value\"] = None\n            else:\n                build_config[\"compare_value\"][\"show\"] = True\n                build_config[\"compare_value\"][\"advanced\"] = False\n\n        return build_config\n"
+              },
+              "compare_value": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Match Text",
+                "dynamic": false,
+                "info": "The value to compare against (not used for boolean validator)",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "compare_value",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "None"
+              },
+              "data_input": {
+                "_input_type": "DataInput",
+                "advanced": false,
+                "display_name": "Data Input",
+                "dynamic": false,
+                "info": "The Data object or list of Data objects to process",
+                "input_types": [
+                  "Data"
+                ],
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "data_input",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "key_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Key Name",
+                "dynamic": false,
+                "info": "The name of the key in the Data object(s) to check",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "key_name",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "file_path"
+              },
+              "operator": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Operator",
+                "dynamic": false,
+                "info": "The operator to apply for comparing the values. 'boolean validator' treats the value as a boolean.",
+                "load_from_db": false,
+                "name": "operator",
+                "options": [
+                  "equals",
+                  "not equals",
+                  "contains",
+                  "starts with",
+                  "ends with",
+                  "boolean validator"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "not equals"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "DataConditionalRouter"
+        },
+        "dragging": false,
+        "id": "DataConditionalRouter-pz0a7",
+        "measured": {
+          "height": 527,
+          "width": 320
+        },
+        "position": {
+          "x": 652.7041185254423,
+          "y": 296.0760759617547
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "LoopComponent-NSDeO",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Iterates over a list of Data objects, outputting one item at a time and aggregating results from loop inputs.",
+            "display_name": "Loop",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "data"
+            ],
+            "frozen": false,
+            "icon": "infinity",
+            "legacy": false,
+            "lf_version": "1.4.3",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": true,
+                "cache": true,
+                "display_name": "Item",
+                "hidden": false,
+                "method": "item_output",
+                "name": "item",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Done",
+                "hidden": false,
+                "method": "done_output",
+                "name": "done",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.custom import Component\nfrom langflow.io import DataInput, Output\nfrom langflow.schema import Data\nimport time\n\nclass LoopComponent(Component):\n    display_name = \"Loop\"\n    description = (\n        \"Iterates over a list of Data objects, outputting one item at a time and aggregating results from loop inputs.\"\n    )\n    icon = \"infinity\"\n\n    inputs = [\n        DataInput(\n            name=\"data\",\n            display_name=\"Data\",\n            info=\"The initial list of Data objects to iterate over.\",\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Item\", name=\"item\", method=\"item_output\", allows_loop=True),\n        Output(display_name=\"Done\", name=\"done\", method=\"done_output\"),\n    ]\n\n    def initialize_data(self) -> None:\n        \"\"\"Initialize the data list, context index, and aggregated list.\"\"\"\n        if self.ctx.get(f\"{self._id}_initialized\", False):\n            return\n\n        # Ensure data is a list of Data objects\n        data_list = self._validate_data(self.data)\n\n        # Store the initial data and context variables\n        self.update_ctx(\n            {\n                f\"{self._id}_data\": data_list,\n                f\"{self._id}_index\": 0,\n                f\"{self._id}_aggregated\": [],\n                f\"{self._id}_initialized\": True,\n            }\n        )\n\n    def _validate_data(self, data):\n        \"\"\"Validate and return a list of Data objects.\"\"\"\n        if isinstance(data, Data):\n            return [data]\n        if isinstance(data, list) and all(isinstance(item, Data) for item in data):\n            return data\n        msg = \"The 'data' input must be a list of Data objects or a single Data object.\"\n        raise TypeError(msg)\n\n    def evaluate_stop_loop(self) -> bool:\n        \"\"\"Evaluate whether to stop item or done output.\"\"\"\n        current_index = self.ctx.get(f\"{self._id}_index\", 0)\n        data_length = len(self.ctx.get(f\"{self._id}_data\", []))\n        return current_index > data_length\n\n    def item_output(self) -> Data:\n        \"\"\"Output the next item in the list or stop if done.\"\"\"\n        \n        # Intervalo em segundos para não ultrapassar os limites do modelo (RPM - Requests Per Minute)\n        time.sleep(20)\n        \n        self.initialize_data()\n        current_item = Data(text=\"\")\n\n        if self.evaluate_stop_loop():\n            self.stop(\"item\")\n            return Data(text=\"\")\n\n        # Get data list and current index\n        data_list, current_index = self.loop_variables()\n        if current_index < len(data_list):\n            # Output current item and increment index\n            try:\n                current_item = data_list[current_index]\n            except IndexError:\n                current_item = Data(text=\"\")\n        self.aggregated_output()\n        self.update_ctx({f\"{self._id}_index\": current_index + 1})\n        return current_item\n\n    def done_output(self) -> Data:\n        \"\"\"Trigger the done output when iteration is complete.\"\"\"\n        self.initialize_data()\n\n        if self.evaluate_stop_loop():\n            self.stop(\"item\")\n            self.start(\"done\")\n\n            return self.ctx.get(f\"{self._id}_aggregated\", [])\n        self.stop(\"done\")\n        return Data(text=\"\")\n\n    def loop_variables(self):\n        \"\"\"Retrieve loop variables from context.\"\"\"\n        return (\n            self.ctx.get(f\"{self._id}_data\", []),\n            self.ctx.get(f\"{self._id}_index\", 0),\n        )\n\n    def aggregated_output(self) -> Data:\n        \"\"\"Return the aggregated list once all items are processed.\"\"\"\n        self.initialize_data()\n\n        # Get data list and aggregated list\n        data_list = self.ctx.get(f\"{self._id}_data\", [])\n        aggregated = self.ctx.get(f\"{self._id}_aggregated\", [])\n\n        # Check if loop input is provided and append to aggregated list\n        if self.item is not None and not isinstance(self.item, str) and len(aggregated) <= len(data_list):\n            aggregated.append(self.item)\n            self.update_ctx({f\"{self._id}_aggregated\": aggregated})\n        return aggregated\n"
+              },
+              "data": {
+                "_input_type": "DataInput",
+                "advanced": false,
+                "display_name": "Data",
+                "dynamic": false,
+                "info": "The initial list of Data objects to iterate over.",
+                "input_types": [
+                  "Data"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "data",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "LoopComponent"
+        },
+        "dragging": false,
+        "id": "LoopComponent-NSDeO",
+        "measured": {
+          "height": 280,
+          "width": 320
+        },
+        "position": {
+          "x": 1142.2541744935238,
+          "y": 431.52029125041065
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "ParserComponent-5VLvN",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Format a DataFrame or Data object into text using a template. Enable 'Stringify' to convert input into a readable string instead.",
+            "display_name": "Parser",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "mode",
+              "pattern",
+              "input_data",
+              "sep"
+            ],
+            "frozen": false,
+            "icon": "braces",
+            "legacy": false,
+            "lf_version": "1.4.3",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Parsed Text",
+                "hidden": false,
+                "method": "parse_combined_text",
+                "name": "parsed_text",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "import json\nfrom typing import Any\n\nfrom langflow.custom import Component\nfrom langflow.io import (\n    BoolInput,\n    HandleInput,\n    MessageTextInput,\n    MultilineInput,\n    Output,\n    TabInput,\n)\nfrom langflow.schema import Data, DataFrame\nfrom langflow.schema.message import Message\n\n\nclass ParserComponent(Component):\n    display_name = \"Parser\"\n    description = (\n        \"Format a DataFrame or Data object into text using a template. \"\n        \"Enable 'Stringify' to convert input into a readable string instead.\"\n    )\n    icon = \"braces\"\n\n    inputs = [\n        TabInput(\n            name=\"mode\",\n            display_name=\"Mode\",\n            options=[\"Parser\", \"Stringify\"],\n            value=\"Parser\",\n            info=\"Convert into raw string instead of using a template.\",\n            real_time_refresh=True,\n        ),\n        MultilineInput(\n            name=\"pattern\",\n            display_name=\"Template\",\n            info=(\n                \"Use variables within curly brackets to extract column values for DataFrames \"\n                \"or key values for Data.\"\n                \"For example: `Name: {Name}, Age: {Age}, Country: {Country}`\"\n            ),\n            value=\"Text: {text}\",  # Example default\n            dynamic=True,\n            show=True,\n            required=True,\n        ),\n        HandleInput(\n            name=\"input_data\",\n            display_name=\"Data or DataFrame\",\n            input_types=[\"DataFrame\", \"Data\"],\n            info=\"Accepts either a DataFrame or a Data object.\",\n            required=True,\n        ),\n        MessageTextInput(\n            name=\"sep\",\n            display_name=\"Separator\",\n            advanced=True,\n            value=\"\\n\",\n            info=\"String used to separate rows/items.\",\n        ),\n    ]\n\n    outputs = [\n        Output(\n            display_name=\"Parsed Text\",\n            name=\"parsed_text\",\n            info=\"Formatted text output.\",\n            method=\"parse_combined_text\",\n        ),\n    ]\n\n    def update_build_config(self, build_config, field_value, field_name=None):\n        \"\"\"Dynamically hide/show `template` and enforce requirement based on `stringify`.\"\"\"\n        if field_name == \"mode\":\n            build_config[\"pattern\"][\"show\"] = self.mode == \"Parser\"\n            build_config[\"pattern\"][\"required\"] = self.mode == \"Parser\"\n            if field_value:\n                clean_data = BoolInput(\n                    name=\"clean_data\",\n                    display_name=\"Clean Data\",\n                    info=(\n                        \"Enable to clean the data by removing empty rows and lines \"\n                        \"in each cell of the DataFrame/ Data object.\"\n                    ),\n                    value=True,\n                    advanced=True,\n                    required=False,\n                )\n                build_config[\"clean_data\"] = clean_data.to_dict()\n            else:\n                build_config.pop(\"clean_data\", None)\n\n        return build_config\n\n    def _clean_args(self):\n        \"\"\"Prepare arguments based on input type.\"\"\"\n        input_data = self.input_data\n\n        match input_data:\n            case list() if all(isinstance(item, Data) for item in input_data):\n                msg = \"List of Data objects is not supported.\"\n                raise ValueError(msg)\n            case DataFrame():\n                return input_data, None\n            case Data():\n                return None, input_data\n            case dict() if \"data\" in input_data:\n                try:\n                    if \"columns\" in input_data:  # Likely a DataFrame\n                        return DataFrame.from_dict(input_data), None\n                    # Likely a Data object\n                    return None, Data(**input_data)\n                except (TypeError, ValueError, KeyError) as e:\n                    msg = f\"Invalid structured input provided: {e!s}\"\n                    raise ValueError(msg) from e\n            case _:\n                msg = f\"Unsupported input type: {type(input_data)}. Expected DataFrame or Data.\"\n                raise ValueError(msg)\n\n    def parse_combined_text(self) -> Message:\n        \"\"\"Parse all rows/items into a single text or convert input to string if `stringify` is enabled.\"\"\"\n        # Early return for stringify option\n        if self.mode == \"Stringify\":\n            return self.convert_to_string()\n\n        df, data = self._clean_args()\n\n        lines = []\n        if df is not None:\n            for _, row in df.iterrows():\n                formatted_text = self.pattern.format(**row.to_dict())\n                lines.append(formatted_text)\n        elif data is not None:\n            formatted_text = self.pattern.format(**data.data)\n            lines.append(formatted_text)\n\n        combined_text = self.sep.join(lines)\n        self.status = combined_text\n        return Message(text=combined_text)\n\n    def _safe_convert(self, data: Any) -> str:\n        \"\"\"Safely convert input data to string.\"\"\"\n        try:\n            if isinstance(data, str):\n                return data\n            if isinstance(data, Message):\n                return data.get_text()\n            if isinstance(data, Data):\n                return json.dumps(data.data)\n            if isinstance(data, DataFrame):\n                if hasattr(self, \"clean_data\") and self.clean_data:\n                    # Remove empty rows\n                    data = data.dropna(how=\"all\")\n                    # Remove empty lines in each cell\n                    data = data.replace(r\"^\\s*$\", \"\", regex=True)\n                    # Replace multiple newlines with a single newline\n                    data = data.replace(r\"\\n+\", \"\\n\", regex=True)\n                return data.to_markdown(index=False)\n            return str(data)\n        except (ValueError, TypeError, AttributeError) as e:\n            msg = f\"Error converting data: {e!s}\"\n            raise ValueError(msg) from e\n\n    def convert_to_string(self) -> Message:\n        \"\"\"Convert input data to string with proper error handling.\"\"\"\n        result = \"\"\n        if isinstance(self.input_data, list):\n            result = \"\\n\".join([self._safe_convert(item) for item in self.input_data])\n        else:\n            result = self._safe_convert(self.input_data)\n        self.log(f\"Converted to string with length: {len(result)}\")\n\n        message = Message(text=result)\n        self.status = message\n        return message\n"
+              },
+              "input_data": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Data or DataFrame",
+                "dynamic": false,
+                "info": "Accepts either a DataFrame or a Data object.",
+                "input_types": [
+                  "DataFrame",
+                  "Data"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "input_data",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "mode": {
+                "_input_type": "TabInput",
+                "advanced": true,
+                "display_name": "Mode",
+                "dynamic": false,
+                "info": "Convert into raw string instead of using a template.",
+                "name": "mode",
+                "options": [
+                  "Parser",
+                  "Stringify"
+                ],
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "tab",
+                "value": "Parser"
+              },
+              "pattern": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "copy_field": false,
+                "display_name": "Template",
+                "dynamic": true,
+                "info": "Use variables within curly brackets to extract column values for DataFrames or key values for Data.For example: `Name: {Name}, Age: {Age}, Country: {Country}`",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "pattern",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "{file_path}"
+              },
+              "sep": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Separator",
+                "dynamic": false,
+                "info": "String used to separate rows/items.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "sep",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "\n"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "ParserComponent"
+        },
+        "dragging": false,
+        "id": "ParserComponent-5VLvN",
+        "measured": {
+          "height": 314,
+          "width": 320
+        },
+        "position": {
+          "x": 1771.2641844200052,
+          "y": -111.62749041476171
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "ParserComponent-ucdiE",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Format a DataFrame or Data object into text using a template. Enable 'Stringify' to convert input into a readable string instead.",
+            "display_name": "Parser",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "mode",
+              "pattern",
+              "input_data",
+              "sep"
+            ],
+            "frozen": false,
+            "icon": "braces",
+            "legacy": false,
+            "lf_version": "1.4.3",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Parsed Text",
+                "hidden": false,
+                "method": "parse_combined_text",
+                "name": "parsed_text",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "import json\nfrom typing import Any\n\nfrom langflow.custom import Component\nfrom langflow.io import (\n    BoolInput,\n    HandleInput,\n    MessageTextInput,\n    MultilineInput,\n    Output,\n    TabInput,\n)\nfrom langflow.schema import Data, DataFrame\nfrom langflow.schema.message import Message\n\n\nclass ParserComponent(Component):\n    display_name = \"Parser\"\n    description = (\n        \"Format a DataFrame or Data object into text using a template. \"\n        \"Enable 'Stringify' to convert input into a readable string instead.\"\n    )\n    icon = \"braces\"\n\n    inputs = [\n        TabInput(\n            name=\"mode\",\n            display_name=\"Mode\",\n            options=[\"Parser\", \"Stringify\"],\n            value=\"Parser\",\n            info=\"Convert into raw string instead of using a template.\",\n            real_time_refresh=True,\n        ),\n        MultilineInput(\n            name=\"pattern\",\n            display_name=\"Template\",\n            info=(\n                \"Use variables within curly brackets to extract column values for DataFrames \"\n                \"or key values for Data.\"\n                \"For example: `Name: {Name}, Age: {Age}, Country: {Country}`\"\n            ),\n            value=\"Text: {text}\",  # Example default\n            dynamic=True,\n            show=True,\n            required=True,\n        ),\n        HandleInput(\n            name=\"input_data\",\n            display_name=\"Data or DataFrame\",\n            input_types=[\"DataFrame\", \"Data\"],\n            info=\"Accepts either a DataFrame or a Data object.\",\n            required=True,\n        ),\n        MessageTextInput(\n            name=\"sep\",\n            display_name=\"Separator\",\n            advanced=True,\n            value=\"\\n\",\n            info=\"String used to separate rows/items.\",\n        ),\n    ]\n\n    outputs = [\n        Output(\n            display_name=\"Parsed Text\",\n            name=\"parsed_text\",\n            info=\"Formatted text output.\",\n            method=\"parse_combined_text\",\n        ),\n    ]\n\n    def update_build_config(self, build_config, field_value, field_name=None):\n        \"\"\"Dynamically hide/show `template` and enforce requirement based on `stringify`.\"\"\"\n        if field_name == \"mode\":\n            build_config[\"pattern\"][\"show\"] = self.mode == \"Parser\"\n            build_config[\"pattern\"][\"required\"] = self.mode == \"Parser\"\n            if field_value:\n                clean_data = BoolInput(\n                    name=\"clean_data\",\n                    display_name=\"Clean Data\",\n                    info=(\n                        \"Enable to clean the data by removing empty rows and lines \"\n                        \"in each cell of the DataFrame/ Data object.\"\n                    ),\n                    value=True,\n                    advanced=True,\n                    required=False,\n                )\n                build_config[\"clean_data\"] = clean_data.to_dict()\n            else:\n                build_config.pop(\"clean_data\", None)\n\n        return build_config\n\n    def _clean_args(self):\n        \"\"\"Prepare arguments based on input type.\"\"\"\n        input_data = self.input_data\n\n        match input_data:\n            case list() if all(isinstance(item, Data) for item in input_data):\n                msg = \"List of Data objects is not supported.\"\n                raise ValueError(msg)\n            case DataFrame():\n                return input_data, None\n            case Data():\n                return None, input_data\n            case dict() if \"data\" in input_data:\n                try:\n                    if \"columns\" in input_data:  # Likely a DataFrame\n                        return DataFrame.from_dict(input_data), None\n                    # Likely a Data object\n                    return None, Data(**input_data)\n                except (TypeError, ValueError, KeyError) as e:\n                    msg = f\"Invalid structured input provided: {e!s}\"\n                    raise ValueError(msg) from e\n            case _:\n                msg = f\"Unsupported input type: {type(input_data)}. Expected DataFrame or Data.\"\n                raise ValueError(msg)\n\n    def parse_combined_text(self) -> Message:\n        \"\"\"Parse all rows/items into a single text or convert input to string if `stringify` is enabled.\"\"\"\n        # Early return for stringify option\n        if self.mode == \"Stringify\":\n            return self.convert_to_string()\n\n        df, data = self._clean_args()\n\n        lines = []\n        if df is not None:\n            for _, row in df.iterrows():\n                formatted_text = self.pattern.format(**row.to_dict())\n                lines.append(formatted_text)\n        elif data is not None:\n            formatted_text = self.pattern.format(**data.data)\n            lines.append(formatted_text)\n\n        combined_text = self.sep.join(lines)\n        self.status = combined_text\n        return Message(text=combined_text)\n\n    def _safe_convert(self, data: Any) -> str:\n        \"\"\"Safely convert input data to string.\"\"\"\n        try:\n            if isinstance(data, str):\n                return data\n            if isinstance(data, Message):\n                return data.get_text()\n            if isinstance(data, Data):\n                return json.dumps(data.data)\n            if isinstance(data, DataFrame):\n                if hasattr(self, \"clean_data\") and self.clean_data:\n                    # Remove empty rows\n                    data = data.dropna(how=\"all\")\n                    # Remove empty lines in each cell\n                    data = data.replace(r\"^\\s*$\", \"\", regex=True)\n                    # Replace multiple newlines with a single newline\n                    data = data.replace(r\"\\n+\", \"\\n\", regex=True)\n                return data.to_markdown(index=False)\n            return str(data)\n        except (ValueError, TypeError, AttributeError) as e:\n            msg = f\"Error converting data: {e!s}\"\n            raise ValueError(msg) from e\n\n    def convert_to_string(self) -> Message:\n        \"\"\"Convert input data to string with proper error handling.\"\"\"\n        result = \"\"\n        if isinstance(self.input_data, list):\n            result = \"\\n\".join([self._safe_convert(item) for item in self.input_data])\n        else:\n            result = self._safe_convert(self.input_data)\n        self.log(f\"Converted to string with length: {len(result)}\")\n\n        message = Message(text=result)\n        self.status = message\n        return message\n"
+              },
+              "input_data": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Data or DataFrame",
+                "dynamic": false,
+                "info": "Accepts either a DataFrame or a Data object.",
+                "input_types": [
+                  "DataFrame",
+                  "Data"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "input_data",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "mode": {
+                "_input_type": "TabInput",
+                "advanced": true,
+                "display_name": "Mode",
+                "dynamic": false,
+                "info": "Convert into raw string instead of using a template.",
+                "name": "mode",
+                "options": [
+                  "Parser",
+                  "Stringify"
+                ],
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "tab",
+                "value": "Parser"
+              },
+              "pattern": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "copy_field": false,
+                "display_name": "Template",
+                "dynamic": true,
+                "info": "Use variables within curly brackets to extract column values for DataFrames or key values for Data.For example: `Name: {Name}, Age: {Age}, Country: {Country}`",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "pattern",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "{text}"
+              },
+              "sep": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Separator",
+                "dynamic": false,
+                "info": "String used to separate rows/items.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "sep",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "\n"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "ParserComponent"
+        },
+        "dragging": false,
+        "id": "ParserComponent-ucdiE",
+        "measured": {
+          "height": 314,
+          "width": 320
+        },
+        "position": {
+          "x": 1684.0474833467324,
+          "y": 429.5992775772268
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "Prompt-vWUPt",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {
+              "template": [
+                "pdf_nfe"
+              ]
+            },
+            "description": "Create a prompt template with dynamic variables.",
+            "display_name": "Prompt",
+            "documentation": "",
+            "edited": false,
+            "error": null,
+            "field_order": [
+              "template",
+              "tool_placeholder"
+            ],
+            "frozen": false,
+            "full_path": null,
+            "icon": "prompts",
+            "is_composition": null,
+            "is_input": null,
+            "is_output": null,
+            "legacy": false,
+            "lf_version": "1.4.3",
+            "metadata": {},
+            "minimized": false,
+            "name": "",
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Prompt Message",
+                "hidden": false,
+                "method": "build_prompt",
+                "name": "prompt",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "priority": null,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.base.prompts.api_utils import process_prompt_template\nfrom langflow.custom import Component\nfrom langflow.inputs.inputs import DefaultPromptField\nfrom langflow.io import MessageTextInput, Output, PromptInput\nfrom langflow.schema.message import Message\nfrom langflow.template.utils import update_template_values\n\n\nclass PromptComponent(Component):\n    display_name: str = \"Prompt\"\n    description: str = \"Create a prompt template with dynamic variables.\"\n    icon = \"prompts\"\n    trace_type = \"prompt\"\n    name = \"Prompt\"\n\n    inputs = [\n        PromptInput(name=\"template\", display_name=\"Template\"),\n        MessageTextInput(\n            name=\"tool_placeholder\",\n            display_name=\"Tool Placeholder\",\n            tool_mode=True,\n            advanced=True,\n            info=\"A placeholder input for tool mode.\",\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Prompt Message\", name=\"prompt\", method=\"build_prompt\"),\n    ]\n\n    async def build_prompt(self) -> Message:\n        prompt = Message.from_template(**self._attributes)\n        self.status = prompt.text\n        return prompt\n\n    def _update_template(self, frontend_node: dict):\n        prompt_template = frontend_node[\"template\"][\"template\"][\"value\"]\n        custom_fields = frontend_node[\"custom_fields\"]\n        frontend_node_template = frontend_node[\"template\"]\n        _ = process_prompt_template(\n            template=prompt_template,\n            name=\"template\",\n            custom_fields=custom_fields,\n            frontend_node_template=frontend_node_template,\n        )\n        return frontend_node\n\n    async def update_frontend_node(self, new_frontend_node: dict, current_frontend_node: dict):\n        \"\"\"This function is called after the code validation is done.\"\"\"\n        frontend_node = await super().update_frontend_node(new_frontend_node, current_frontend_node)\n        template = frontend_node[\"template\"][\"template\"][\"value\"]\n        # Kept it duplicated for backwards compatibility\n        _ = process_prompt_template(\n            template=template,\n            name=\"template\",\n            custom_fields=frontend_node[\"custom_fields\"],\n            frontend_node_template=frontend_node[\"template\"],\n        )\n        # Now that template is updated, we need to grab any values that were set in the current_frontend_node\n        # and update the frontend_node with those values\n        update_template_values(new_template=frontend_node, previous_template=current_frontend_node[\"template\"])\n        return frontend_node\n\n    def _get_fallback_input(self, **kwargs):\n        return DefaultPromptField(**kwargs)\n"
+              },
+              "pdf_nfe": {
+                "advanced": false,
+                "display_name": "pdf_nfe",
+                "dynamic": false,
+                "field_type": "str",
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "pdf_nfe",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              },
+              "template": {
+                "_input_type": "PromptInput",
+                "advanced": false,
+                "display_name": "Template",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "template",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "type": "prompt",
+                "value": "# Objetivo:\nExtraia os dados de uma nota fiscal eletrônica brasileira no formato PDF DANFE e preencha a Estrutura JSON.\n \n# Dados PDF DANFE\n[nfe]\n{pdf_nfe}\n[/nfe]\n\n# Regras:\n1. Extraia os dados da tag [nfe] para consultar e preencha a estrutura abaixo.\n2. Campos numéricos vazios preencha com \"0\".\n3. Gere apenas o JSON, iniciando com a chave `\"NFe\"`. Não adicione nenhum texto antes ou depois.\n4. Para produtos, inclua todos os itens em uma lista, mantendo o formato JSON correto.\n5. Se o campo **\"NFe\".\"dadosAdicionais\"** contiver informações sobre impostos, **interprete-as e extraia** os tributos e as taxas que encontrar, \n    onde a somar compõem o \"impostos\".\"valorTotalTributos\". Adicione esses valores como pares **'chave: valor'** no objeto \"impostosAdicionais\", substituindo os exemplos. \n    Se não houver dados, o campo \"impostosAdicionais\" deve ficar vazio, mantendo o formato JSON correto.\n6. Para todos os campos numéricos no JSON, corrija para formatação padrão usando apenas (.) como separador decimal. \n\n# Estrutura JSON requerida:\nA saída deve ser um objeto JSON bem formatado, sem nenhum texto adicional. A estrutura deve seguir o padrão abaixo, usando as chaves `\"\"` e a endentação correta:\n\n\"NFe\":\n  \"numero\": \"...\",\n  \"tipoNF\": \"...\",\n  \"serie\": \"...\",\n  \"chaveAcesso\": \"...\",\n  \"naturezaOperacao\": \"...\",\n  \"dataEmissao\": \"...\",\n  \"dataSaida\": \"...\",\n  \"horaSaida\": \"...\",\n  \"valorTotalNota\": \"...\",\n  \"dadosAdicionais\": \"...\"\n\n\"impostos\":\n  \"valorTotalProduto\": \"...\",\n  \"baseCalculoICMS\": \"...\",\n  \"valorICMS\": \"...\",\n  \"valorTotalTributos\": \"...\",\n  // Campo a ser preenchido pela regra 5.\n  \"impostosAdicionais\": \n    \"Tributo\": \"valorTaxa\",\n    \"Tributo\": \"valorTaxa\"\n\n\"emitente\":\n  \"cnpjCpf\": \"...\",\n  \"inscricaoEstadual\": \"...\",\n  \"inscricaoMunicipal\": \"...\",\n  \"razaoSocial\": \"...\",\n  \"endereco\": \"...\",\n  \"cep\": \"...\",\n  \"bairro\": \"...\",\n  \"municipio\": \"...\",\n  \"uf\": \"...\",\n  \"foneFax\": \"...\"\n\n\"destinatario\":\n  \"cnpjCpf\": \"...\",\n  \"inscricaoEstadual\": \"...\",\n  \"inscricaoMunicipal\": \"...\",\n  \"razaoSocial\": \"...\",\n  \"endereco\": \"...\",\n  \"cep\": \"...\",\n  \"bairro\": \"...\",\n  \"municipio\": \"...\",\n  \"uf\": \"...\",\n  \"foneFax\": \"...\"\n\n\"produtos\": [\n    \"codigo\": \"...\",\n    \"descricao\": \"...\",\n    \"ncm\": \"...\",\n    \"cst\": \"...\",\n    \"cfop\": \"...\",\n    \"unidade\": \"...\",\n    \"quantidade\": \"...\",\n    \"valorUnitario\": \"...\",\n    \"valorTotal\": \"...\",\n    \"valorICMS\": \"...\",\n    \"valorIPI\": \"...\",\n    \"aliquotaICMS\": \"...\",\n    \"aliquotaIPI\": \"...\"\n]"
+              },
+              "tool_placeholder": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Tool Placeholder",
+                "dynamic": false,
+                "info": "A placeholder input for tool mode.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "tool_placeholder",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": true,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "Prompt"
+        },
+        "dragging": false,
+        "id": "Prompt-vWUPt",
+        "measured": {
+          "height": 412,
+          "width": 320
+        },
+        "position": {
+          "x": 2120.9996261469864,
+          "y": 561.8893056010951
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "GoogleGenerativeAIModel-wf7B9",
+          "node": {
+            "base_classes": [
+              "LanguageModel",
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Generate text using Google Generative AI.",
+            "display_name": "Google Generative AI",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "system_message",
+              "stream",
+              "max_output_tokens",
+              "model_name",
+              "api_key",
+              "top_p",
+              "temperature",
+              "n",
+              "top_k",
+              "tool_model_enabled"
+            ],
+            "frozen": false,
+            "icon": "GoogleGenerativeAI",
+            "legacy": false,
+            "lf_version": "1.4.3",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Message",
+                "hidden": false,
+                "method": "text_response",
+                "name": "text_output",
+                "options": null,
+                "required_inputs": [],
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Language Model",
+                "method": "build_model",
+                "name": "model_output",
+                "options": null,
+                "required_inputs": [
+                  "api_key"
+                ],
+                "selected": "LanguageModel",
+                "tool_mode": true,
+                "types": [
+                  "LanguageModel"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "api_key": {
+                "_input_type": "SecretStrInput",
+                "advanced": false,
+                "display_name": "Google API Key",
+                "dynamic": false,
+                "info": "The Google API Key to use for the Google Generative AI.",
+                "input_types": [],
+                "load_from_db": false,
+                "name": "api_key",
+                "password": true,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from typing import Any\n\nimport requests\nfrom loguru import logger\nfrom pydantic.v1 import SecretStr\n\nfrom langflow.base.models.google_generative_ai_constants import GOOGLE_GENERATIVE_AI_MODELS\nfrom langflow.base.models.model import LCModelComponent\nfrom langflow.field_typing import LanguageModel\nfrom langflow.field_typing.range_spec import RangeSpec\nfrom langflow.inputs import DropdownInput, FloatInput, IntInput, SecretStrInput, SliderInput\nfrom langflow.inputs.inputs import BoolInput\nfrom langflow.schema import dotdict\n\n\nclass GoogleGenerativeAIComponent(LCModelComponent):\n    display_name = \"Google Generative AI\"\n    description = \"Generate text using Google Generative AI.\"\n    icon = \"GoogleGenerativeAI\"\n    name = \"GoogleGenerativeAIModel\"\n\n    inputs = [\n        *LCModelComponent._base_inputs,\n        IntInput(\n            name=\"max_output_tokens\", display_name=\"Max Output Tokens\", info=\"The maximum number of tokens to generate.\"\n        ),\n        DropdownInput(\n            name=\"model_name\",\n            display_name=\"Model\",\n            info=\"The name of the model to use.\",\n            options=GOOGLE_GENERATIVE_AI_MODELS,\n            value=\"gemini-1.5-pro\",\n            refresh_button=True,\n            combobox=True,\n        ),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"Google API Key\",\n            info=\"The Google API Key to use for the Google Generative AI.\",\n            required=True,\n            real_time_refresh=True,\n        ),\n        FloatInput(\n            name=\"top_p\",\n            display_name=\"Top P\",\n            info=\"The maximum cumulative probability of tokens to consider when sampling.\",\n            advanced=True,\n        ),\n        SliderInput(\n            name=\"temperature\",\n            display_name=\"Temperature\",\n            value=0.1,\n            range_spec=RangeSpec(min=0, max=2, step=0.01),\n            info=\"Controls randomness. Lower values are more deterministic, higher values are more creative.\",\n        ),\n        IntInput(\n            name=\"n\",\n            display_name=\"N\",\n            info=\"Number of chat completions to generate for each prompt. \"\n            \"Note that the API may not return the full n completions if duplicates are generated.\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"top_k\",\n            display_name=\"Top K\",\n            info=\"Decode using top-k sampling: consider the set of top_k most probable tokens. Must be positive.\",\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"tool_model_enabled\",\n            display_name=\"Tool Model Enabled\",\n            info=\"Whether to use the tool model.\",\n            value=False,\n        ),\n    ]\n\n    def build_model(self) -> LanguageModel:  # type: ignore[type-var]\n        try:\n            from langchain_google_genai import ChatGoogleGenerativeAI\n        except ImportError as e:\n            msg = \"The 'langchain_google_genai' package is required to use the Google Generative AI model.\"\n            raise ImportError(msg) from e\n\n        google_api_key = self.api_key\n        model = self.model_name\n        max_output_tokens = self.max_output_tokens\n        temperature = self.temperature\n        top_k = self.top_k\n        top_p = self.top_p\n        n = self.n\n\n        return ChatGoogleGenerativeAI(\n            model=model,\n            max_output_tokens=max_output_tokens or None,\n            temperature=temperature,\n            top_k=top_k or None,\n            top_p=top_p or None,\n            n=n or 1,\n            google_api_key=SecretStr(google_api_key).get_secret_value(),\n        )\n\n    def get_models(self, tool_model_enabled: bool | None = None) -> list[str]:\n        try:\n            import google.generativeai as genai\n\n            genai.configure(api_key=self.api_key)\n            model_ids = [\n                model.name.replace(\"models/\", \"\")\n                for model in genai.list_models()\n                if \"generateContent\" in model.supported_generation_methods\n            ]\n            model_ids.sort(reverse=True)\n        except (ImportError, ValueError) as e:\n            logger.exception(f\"Error getting model names: {e}\")\n            model_ids = GOOGLE_GENERATIVE_AI_MODELS\n        if tool_model_enabled:\n            try:\n                from langchain_google_genai.chat_models import ChatGoogleGenerativeAI\n            except ImportError as e:\n                msg = \"langchain_google_genai is not installed.\"\n                raise ImportError(msg) from e\n            for model in model_ids:\n                model_with_tool = ChatGoogleGenerativeAI(\n                    model=self.model_name,\n                    google_api_key=self.api_key,\n                )\n                if not self.supports_tool_calling(model_with_tool):\n                    model_ids.remove(model)\n        return model_ids\n\n    def update_build_config(self, build_config: dotdict, field_value: Any, field_name: str | None = None):\n        if field_name in {\"base_url\", \"model_name\", \"tool_model_enabled\", \"api_key\"} and field_value:\n            try:\n                if len(self.api_key) == 0:\n                    ids = GOOGLE_GENERATIVE_AI_MODELS\n                else:\n                    try:\n                        ids = self.get_models(tool_model_enabled=self.tool_model_enabled)\n                    except (ImportError, ValueError, requests.exceptions.RequestException) as e:\n                        logger.exception(f\"Error getting model names: {e}\")\n                        ids = GOOGLE_GENERATIVE_AI_MODELS\n                build_config[\"model_name\"][\"options\"] = ids\n                build_config[\"model_name\"][\"value\"] = ids[0]\n            except Exception as e:\n                msg = f\"Error getting model names: {e}\"\n                raise ValueError(msg) from e\n        return build_config\n"
+              },
+              "input_value": {
+                "_input_type": "MessageInput",
+                "advanced": false,
+                "display_name": "Input",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "input_value",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "max_output_tokens": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Max Output Tokens",
+                "dynamic": false,
+                "info": "The maximum number of tokens to generate.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_output_tokens",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": ""
+              },
+              "model_name": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": true,
+                "dialog_inputs": {},
+                "display_name": "Model",
+                "dynamic": false,
+                "info": "The name of the model to use.",
+                "name": "model_name",
+                "options": [
+                  "learnlm-2.0-flash-experimental",
+                  "gemma-3n-e4b-it",
+                  "gemma-3n-e2b-it",
+                  "gemma-3-4b-it",
+                  "gemma-3-27b-it",
+                  "gemma-3-1b-it",
+                  "gemma-3-12b-it",
+                  "gemini-robotics-er-1.5-preview",
+                  "gemini-pro-latest",
+                  "gemini-flash-lite-latest",
+                  "gemini-flash-latest",
+                  "gemini-exp-1206",
+                  "gemini-2.5-pro-preview-tts",
+                  "gemini-2.5-pro-preview-06-05",
+                  "gemini-2.5-pro-preview-05-06",
+                  "gemini-2.5-pro-preview-03-25",
+                  "gemini-2.5-pro",
+                  "gemini-2.5-flash-preview-tts",
+                  "gemini-2.5-flash-preview-09-2025",
+                  "gemini-2.5-flash-preview-05-20",
+                  "gemini-2.5-flash-lite-preview-09-2025",
+                  "gemini-2.5-flash-lite-preview-06-17",
+                  "gemini-2.5-flash-lite",
+                  "gemini-2.5-flash-image-preview",
+                  "gemini-2.5-flash-image",
+                  "gemini-2.5-flash",
+                  "gemini-2.5-computer-use-preview-10-2025",
+                  "gemini-2.0-pro-exp-02-05",
+                  "gemini-2.0-pro-exp",
+                  "gemini-2.0-flash-thinking-exp-1219",
+                  "gemini-2.0-flash-thinking-exp-01-21",
+                  "gemini-2.0-flash-thinking-exp",
+                  "gemini-2.0-flash-preview-image-generation",
+                  "gemini-2.0-flash-lite-preview-02-05",
+                  "gemini-2.0-flash-lite-preview",
+                  "gemini-2.0-flash-lite-001",
+                  "gemini-2.0-flash-lite",
+                  "gemini-2.0-flash-exp-image-generation",
+                  "gemini-2.0-flash-exp",
+                  "gemini-2.0-flash-001",
+                  "gemini-2.0-flash"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "refresh_button": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "gemini-2.0-flash"
+              },
+              "n": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "N",
+                "dynamic": false,
+                "info": "Number of chat completions to generate for each prompt. Note that the API may not return the full n completions if duplicates are generated.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "n",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": ""
+              },
+              "stream": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Stream",
+                "dynamic": false,
+                "info": "Stream the response from the model. Streaming works only in Chat.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "stream",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              },
+              "system_message": {
+                "_input_type": "MultilineInput",
+                "advanced": true,
+                "copy_field": false,
+                "display_name": "System Message",
+                "dynamic": false,
+                "info": "System message to pass to the model.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "system_message",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "temperature": {
+                "_input_type": "SliderInput",
+                "advanced": false,
+                "display_name": "Temperature",
+                "dynamic": false,
+                "info": "Controls randomness. Lower values are more deterministic, higher values are more creative.",
+                "max_label": "",
+                "max_label_icon": "",
+                "min_label": "",
+                "min_label_icon": "",
+                "name": "temperature",
+                "placeholder": "",
+                "range_spec": {
+                  "max": 2,
+                  "min": 0,
+                  "step": 0.01,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "slider_buttons": false,
+                "slider_buttons_options": [],
+                "slider_input": false,
+                "title_case": false,
+                "tool_mode": false,
+                "type": "slider",
+                "value": 0
+              },
+              "tool_model_enabled": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Tool Model Enabled",
+                "dynamic": false,
+                "info": "Whether to use the tool model.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "tool_model_enabled",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              },
+              "top_k": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Top K",
+                "dynamic": false,
+                "info": "Decode using top-k sampling: consider the set of top_k most probable tokens. Must be positive.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "top_k",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": ""
+              },
+              "top_p": {
+                "_input_type": "FloatInput",
+                "advanced": true,
+                "display_name": "Top P",
+                "dynamic": false,
+                "info": "The maximum cumulative probability of tokens to consider when sampling.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "top_p",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "float",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "GoogleGenerativeAIModel"
+        },
+        "dragging": false,
+        "id": "GoogleGenerativeAIModel-wf7B9",
+        "measured": {
+          "height": 531,
+          "width": 320
+        },
+        "position": {
+          "x": 2626.774074334351,
+          "y": 430.7625968117784
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "CustomComponent-wQ8Ni",
+          "node": {
+            "base_classes": [
+              "Data",
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Limpa as strings JSON confusas e às vezes incorretas produzidas pelos LLMs para que fiquem totalmente compatíveis com a especificação JSON.",
+            "display_name": "JSON validation",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "json_str",
+              "remove_chars",
+              "remove_control_chars",
+              "normalize_unicode",
+              "validate_json"
+            ],
+            "frozen": false,
+            "icon": "braces",
+            "legacy": false,
+            "lf_version": "1.4.3",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Validate JSON String",
+                "hidden": null,
+                "method": "validate_string",
+                "name": "output",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Validate JSON Data",
+                "hidden": false,
+                "method": "validate_data",
+                "name": "data",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.custom import Component\nfrom langflow.inputs import BoolInput, MessageTextInput\nfrom langflow.schema.message import Message\nfrom langflow.template import Output\nfrom json_repair import repair_json\nimport unicodedata\nimport json\n\nclass JSONValidation(Component):\n    icon = \"braces\"\n    display_name = \"JSON validation\"\n    description = (\"Limpa as strings JSON confusas e às vezes incorretas produzidas pelos LLMs para que fiquem totalmente compatíveis com a especificação JSON.\")\n\n    inputs = [\n        MessageTextInput(\n            name=\"json_str\", \n            display_name=\"JSON String\", \n            info=\"The JSON string to be cleaned.\", \n            required=True\n        ),\n        MessageTextInput(\n            name=\"remove_chars\", \n            display_name=\"Remove specific characters\", \n            info=\"Remove caracteres especificos, use (;) para mais de um.\"\n        ),\n        BoolInput(\n            name=\"remove_control_chars\",\n            display_name=\"Remove Control Characters\",\n            info=\"Remove control characters from the JSON string.\",\n            required=False,\n        ),\n        BoolInput(\n            name=\"normalize_unicode\",\n            display_name=\"Normalize Unicode\",\n            info=\"Normalize Unicode characters in the JSON string.\",\n            required=False,\n        ),\n        BoolInput(\n            name=\"validate_json\",\n            display_name=\"Validate JSON\",\n            info=\"Validate the JSON string to ensure it is well-formed.\",\n            required=False,\n        ),\n    ]\n    outputs = [\n        Output(\n            display_name=\"Validate JSON String\", \n            name=\"output\", \n            method=\"validate_string\"\n        ),\n        Output(\n            name=\"data\", \n            display_name=\"Validate JSON Data\", \n            method=\"validate_data\"\n        ),\n    ]\n\n    def validate_string(self) -> Message:\n        json_str = self.json_str.replace(\"```json\",\"\").replace(\"```\",\"\")\n        remove_control_chars = self.remove_control_chars\n        normalize_unicode = self.normalize_unicode\n        validate_json = self.validate_json\n        start = json_str.find(\"{\")\n        end = json_str.rfind(\"}\")\n        if start == -1 or end == -1:\n            msg = \"Invalid JSON string: Missing '{' or '}'\"\n            raise ValueError(msg)\n        try:\n            if self.remove_chars:\n                chars = list(self.remove_chars.strip()) \n                for c in chars:\n                    json_str = json_str.replace(c, \"\")\n            json_str = json_str[start : end + 1]\n            if remove_control_chars:\n                json_str = self._remove_control_characters(json_str)\n            if normalize_unicode:\n                json_str = self._normalize_unicode(json_str)\n            if validate_json:\n                json_str = self._validate_json(json_str)\n            cleaned_json_str = repair_json(json_str)\n            result = str(cleaned_json_str)\n            self.status = result\n            return result.strip()\n        except Exception as e:\n            msg = f\"Error cleaning JSON string: {e}\"\n            raise ValueError(msg) from e\n\n    def validate_data(self) -> Data:\n        json_data = json.loads(self.validate_string())\n        return Data(data=json_data)\n\n    def _remove_control_characters(self, s: str) -> str:\n        \"\"\"Remove control characters from the string.\"\"\"\n        return s.translate(self.translation_table)\n\n    def _normalize_unicode(self, s: str) -> str:\n        \"\"\"Normalize Unicode characters in the string.\"\"\"\n        return unicodedata.normalize(\"NFC\", s)\n\n    def _validate_json(self, s: str) -> str:\n        \"\"\"Validate the JSON string.\"\"\"\n        try:\n            json.loads(s)\n        except json.JSONDecodeError as e:\n            msg = f\"Invalid JSON string: {e}\"\n            raise ValueError(msg) from e\n        return s\n\n    def __init__(self, *args, **kwargs):\n        # Create a translation table that maps control characters to None\n        super().__init__(*args, **kwargs)\n        self.translation_table = str.maketrans(\"\", \"\", \"\".join(chr(i) for i in range(32)) + chr(127))\n"
+              },
+              "json_str": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "JSON String",
+                "dynamic": false,
+                "info": "The JSON string to be cleaned.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "json_str",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "normalize_unicode": {
+                "_input_type": "BoolInput",
+                "advanced": false,
+                "display_name": "Normalize Unicode",
+                "dynamic": false,
+                "info": "Normalize Unicode characters in the JSON string.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "normalize_unicode",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "remove_chars": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Remove specific characters",
+                "dynamic": false,
+                "info": "Remove caracteres especificos, use (;) para mais de um.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "remove_chars",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "remove_control_chars": {
+                "_input_type": "BoolInput",
+                "advanced": false,
+                "display_name": "Remove Control Characters",
+                "dynamic": false,
+                "info": "Remove control characters from the JSON string.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "remove_control_chars",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "validate_json": {
+                "_input_type": "BoolInput",
+                "advanced": false,
+                "display_name": "Validate JSON",
+                "dynamic": false,
+                "info": "Validate the JSON string to ensure it is well-formed.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "validate_json",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "JSONValidation"
+        },
+        "dragging": false,
+        "id": "CustomComponent-wQ8Ni",
+        "measured": {
+          "height": 546,
+          "width": 320
+        },
+        "position": {
+          "x": 3121.76841365562,
+          "y": 311.0917816569514
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "ParseData-QZLx1",
+          "node": {
+            "base_classes": [
+              "Data",
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Convert Data objects into Messages using any {field_name} from input data.",
+            "display_name": "Data to Message",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "data",
+              "template",
+              "sep"
+            ],
+            "frozen": false,
+            "icon": "message-square",
+            "legacy": true,
+            "lf_version": "1.4.3",
+            "metadata": {
+              "legacy_name": "Parse Data"
+            },
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Message",
+                "hidden": false,
+                "method": "parse_data",
+                "name": "text",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Data List",
+                "method": "parse_data_as_list",
+                "name": "data_list",
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.custom import Component\nfrom langflow.helpers.data import data_to_text, data_to_text_list\nfrom langflow.io import DataInput, MultilineInput, Output, StrInput\nfrom langflow.schema import Data\nfrom langflow.schema.message import Message\n\n\nclass ParseDataComponent(Component):\n    display_name = \"Data to Message\"\n    description = \"Convert Data objects into Messages using any {field_name} from input data.\"\n    icon = \"message-square\"\n    name = \"ParseData\"\n    legacy = True\n    metadata = {\n        \"legacy_name\": \"Parse Data\",\n    }\n\n    inputs = [\n        DataInput(\n            name=\"data\",\n            display_name=\"Data\",\n            info=\"The data to convert to text.\",\n            is_list=True,\n            required=True,\n        ),\n        MultilineInput(\n            name=\"template\",\n            display_name=\"Template\",\n            info=\"The template to use for formatting the data. \"\n            \"It can contain the keys {text}, {data} or any other key in the Data.\",\n            value=\"{text}\",\n            required=True,\n        ),\n        StrInput(name=\"sep\", display_name=\"Separator\", advanced=True, value=\"\\n\"),\n    ]\n\n    outputs = [\n        Output(\n            display_name=\"Message\",\n            name=\"text\",\n            info=\"Data as a single Message, with each input Data separated by Separator\",\n            method=\"parse_data\",\n        ),\n        Output(\n            display_name=\"Data List\",\n            name=\"data_list\",\n            info=\"Data as a list of new Data, each having `text` formatted by Template\",\n            method=\"parse_data_as_list\",\n        ),\n    ]\n\n    def _clean_args(self) -> tuple[list[Data], str, str]:\n        data = self.data if isinstance(self.data, list) else [self.data]\n        template = self.template\n        sep = self.sep\n        return data, template, sep\n\n    def parse_data(self) -> Message:\n        data, template, sep = self._clean_args()\n        result_string = data_to_text(template, data, sep)\n        self.status = result_string\n        return Message(text=result_string)\n\n    def parse_data_as_list(self) -> list[Data]:\n        data, template, _ = self._clean_args()\n        text_list, data_list = data_to_text_list(template, data)\n        for item, text in zip(data_list, text_list, strict=True):\n            item.set_text(text)\n        self.status = data_list\n        return data_list\n"
+              },
+              "data": {
+                "_input_type": "DataInput",
+                "advanced": false,
+                "display_name": "Data",
+                "dynamic": false,
+                "info": "The data to convert to text.",
+                "input_types": [
+                  "Data"
+                ],
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "data",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "sep": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "Separator",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "sep",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "\n"
+              },
+              "template": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "copy_field": false,
+                "display_name": "Template",
+                "dynamic": false,
+                "info": "The template to use for formatting the data. It can contain the keys {text}, {data} or any other key in the Data.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "template",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "Você será um assistente de contabilidade com expertise em escrituração de notas fiscais eletrônicas brasileiras.\n\n# Objetivo:\nAnalise os dados da nota fiscal NFe abaixo, faça a escrituração e classifique os códigos NCM, CST e CFOP da nota e de todos os produtos listados. \nVerificar se estão corretos conforme tabelas e dados oficiais. O resultado deverá ser apresentado exclusivamente no formato JSON.\n\n# Dados da NFe:\n - Chave_Acesso: {NFe[chaveAcesso]}\n - Numero_Nota: {NFe[numero]}\n - Natureza_Operação: {NFe[naturezaOperacao]}\n - Valor_Total_Nota: {NFe[valorTotalNota]}\n - Valor_Total_Tributos: {impostos[valorTotalTributos]}\n - Valor_Total_Produto: {impostos[valorTotalProduto]}\n - Valor_ICMS: {impostos[valorICMS]}\n - Impostos_Adicionais: {impostos[impostosAdicionais]}\n - Dados_Adicionais: {NFe[dadosAdicionais]}\n - Emitente_Razao_Social: {emitente[razaoSocial]}\n - Emitente_Município: {emitente[municipio]}\n - Emitente_UF: {emitente[uf]}\n - Destinatário_Razao_Social: {destinatario[razaoSocial]}\n - Destinatário_Município: {destinatario[municipio]}\n - Destinatário_UF: {destinatario[uf]}\n - Lista_Produtos: {produtos}\n\n# Regras:\n1. Analise a lista \"Lista_Produtos\" e classifique os códigos NCM, CST e CFOP, verificando se eles estão em conformidade com os dados e tabelas oficiais:\n   - Verifique se os códigos estão corretos de acordo com a natureza de operação.\n   - Verifique se os valores dos tributos estão corretos.\n   - Preencha o campo \"produtos\" com o código do produto e uma observação descrevendo o erro encontrado. Caso existam múltiplos produtos com erro, crie uma lista.\n      crie essa estrutura de preenchimento dos produtos, somente com duas chaves \"codigo\" e \"obs\": {{ {{\"codigo\": \"123\", \"obs\": \"Erro no CFOP...\"}}, {{\"codigo\": \"456\", \"obs\": \"Erro na CST...\"}}, {{\"codigo\": \"789\", \"obs\": \"Erro na NCM...\"}}, }}\n   - Preencha os campos \"ncm\", \"cst\" e \"cfop\" com \"OK\" se os códigos analisados estiverem corretos. Caso contrário, preencha com \"ERRO\" para os códigos que estiver incorretos.\n2. Analise se o campo 'Valor_Total_Tributos' condiz com os produtos ou serviços informados.\n3. Analisar se há valor de ICMS e, se houver, verificar se foi aplicado corretamente.\n4. Analise se a operação interestadual ou intermunicipal exige tributação e se o imposto foi aplicado corretamente.\n5. Se, na análise da NFe, estiver tudo certo, preencha o campo \"situação\" com o valor 'CONFORME'. Caso contrário, preencha o campo \"situação\" com o valor 'DIVERGENTE'.\n6. Preencha o campo \"Obs\" com todas as observações das inconsistências encontradas na NFe e apresente um insight da análise e como resolver o problema, em texto sem formatação.\n7. Para todos os campos numéricos no JSON, corrija para formatação padrão usando apenas (.) como separador decimal. \n\n# Saída JSON\n{{\n\"chaveAcesso\": \"{NFe[chaveAcesso]}\",\n\"numeroNFe\": \"{NFe[numero]}\",\n\"naturezaOperacao\": \"{NFe[naturezaOperacao]}\",\n\"valorTotalNota\": {NFe[valorTotalNota]},\n\"baseCalculoICMS\": {impostos[baseCalculoICMS]},\n\"valorICMS\": {impostos[valorICMS]},\n\"valorTotalTributos\": {impostos[valorTotalTributos]},\n\"produtos\": {{}},\n\"ncm\": \"...\",\n\"cst\": \"...\",\n\"cfop\": \"...\",\n\"situacao\":\"...\",\n\"obs\": \"...\",\n}}"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "ParseData"
+        },
+        "dragging": false,
+        "id": "ParseData-QZLx1",
+        "measured": {
+          "height": 342,
+          "width": 320
+        },
+        "position": {
+          "x": 3732.710610049354,
+          "y": 863.3271271895475
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "GoogleGenerativeAIModel-dnnOP",
+          "node": {
+            "base_classes": [
+              "LanguageModel",
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Generate text using Google Generative AI.",
+            "display_name": "Google Generative AI",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "system_message",
+              "stream",
+              "max_output_tokens",
+              "model_name",
+              "api_key",
+              "top_p",
+              "temperature",
+              "n",
+              "top_k",
+              "tool_model_enabled"
+            ],
+            "frozen": false,
+            "icon": "GoogleGenerativeAI",
+            "legacy": false,
+            "lf_version": "1.4.3",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Message",
+                "hidden": false,
+                "method": "text_response",
+                "name": "text_output",
+                "options": null,
+                "required_inputs": [],
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Language Model",
+                "method": "build_model",
+                "name": "model_output",
+                "options": null,
+                "required_inputs": [
+                  "api_key"
+                ],
+                "selected": "LanguageModel",
+                "tool_mode": true,
+                "types": [
+                  "LanguageModel"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "api_key": {
+                "_input_type": "SecretStrInput",
+                "advanced": false,
+                "display_name": "Google API Key",
+                "dynamic": false,
+                "info": "The Google API Key to use for the Google Generative AI.",
+                "input_types": [],
+                "load_from_db": false,
+                "name": "api_key",
+                "password": true,
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from typing import Any\n\nimport requests\nfrom loguru import logger\nfrom pydantic.v1 import SecretStr\n\nfrom langflow.base.models.google_generative_ai_constants import GOOGLE_GENERATIVE_AI_MODELS\nfrom langflow.base.models.model import LCModelComponent\nfrom langflow.field_typing import LanguageModel\nfrom langflow.field_typing.range_spec import RangeSpec\nfrom langflow.inputs import DropdownInput, FloatInput, IntInput, SecretStrInput, SliderInput\nfrom langflow.inputs.inputs import BoolInput\nfrom langflow.schema import dotdict\n\n\nclass GoogleGenerativeAIComponent(LCModelComponent):\n    display_name = \"Google Generative AI\"\n    description = \"Generate text using Google Generative AI.\"\n    icon = \"GoogleGenerativeAI\"\n    name = \"GoogleGenerativeAIModel\"\n\n    inputs = [\n        *LCModelComponent._base_inputs,\n        IntInput(\n            name=\"max_output_tokens\", display_name=\"Max Output Tokens\", info=\"The maximum number of tokens to generate.\"\n        ),\n        DropdownInput(\n            name=\"model_name\",\n            display_name=\"Model\",\n            info=\"The name of the model to use.\",\n            options=GOOGLE_GENERATIVE_AI_MODELS,\n            value=\"gemini-1.5-pro\",\n            refresh_button=True,\n            combobox=True,\n        ),\n        SecretStrInput(\n            name=\"api_key\",\n            display_name=\"Google API Key\",\n            info=\"The Google API Key to use for the Google Generative AI.\",\n            required=True,\n            real_time_refresh=True,\n        ),\n        FloatInput(\n            name=\"top_p\",\n            display_name=\"Top P\",\n            info=\"The maximum cumulative probability of tokens to consider when sampling.\",\n            advanced=True,\n        ),\n        SliderInput(\n            name=\"temperature\",\n            display_name=\"Temperature\",\n            value=0.1,\n            range_spec=RangeSpec(min=0, max=2, step=0.01),\n            info=\"Controls randomness. Lower values are more deterministic, higher values are more creative.\",\n        ),\n        IntInput(\n            name=\"n\",\n            display_name=\"N\",\n            info=\"Number of chat completions to generate for each prompt. \"\n            \"Note that the API may not return the full n completions if duplicates are generated.\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"top_k\",\n            display_name=\"Top K\",\n            info=\"Decode using top-k sampling: consider the set of top_k most probable tokens. Must be positive.\",\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"tool_model_enabled\",\n            display_name=\"Tool Model Enabled\",\n            info=\"Whether to use the tool model.\",\n            value=False,\n        ),\n    ]\n\n    def build_model(self) -> LanguageModel:  # type: ignore[type-var]\n        try:\n            from langchain_google_genai import ChatGoogleGenerativeAI\n        except ImportError as e:\n            msg = \"The 'langchain_google_genai' package is required to use the Google Generative AI model.\"\n            raise ImportError(msg) from e\n\n        google_api_key = self.api_key\n        model = self.model_name\n        max_output_tokens = self.max_output_tokens\n        temperature = self.temperature\n        top_k = self.top_k\n        top_p = self.top_p\n        n = self.n\n\n        return ChatGoogleGenerativeAI(\n            model=model,\n            max_output_tokens=max_output_tokens or None,\n            temperature=temperature,\n            top_k=top_k or None,\n            top_p=top_p or None,\n            n=n or 1,\n            google_api_key=SecretStr(google_api_key).get_secret_value(),\n        )\n\n    def get_models(self, tool_model_enabled: bool | None = None) -> list[str]:\n        try:\n            import google.generativeai as genai\n\n            genai.configure(api_key=self.api_key)\n            model_ids = [\n                model.name.replace(\"models/\", \"\")\n                for model in genai.list_models()\n                if \"generateContent\" in model.supported_generation_methods\n            ]\n            model_ids.sort(reverse=True)\n        except (ImportError, ValueError) as e:\n            logger.exception(f\"Error getting model names: {e}\")\n            model_ids = GOOGLE_GENERATIVE_AI_MODELS\n        if tool_model_enabled:\n            try:\n                from langchain_google_genai.chat_models import ChatGoogleGenerativeAI\n            except ImportError as e:\n                msg = \"langchain_google_genai is not installed.\"\n                raise ImportError(msg) from e\n            for model in model_ids:\n                model_with_tool = ChatGoogleGenerativeAI(\n                    model=self.model_name,\n                    google_api_key=self.api_key,\n                )\n                if not self.supports_tool_calling(model_with_tool):\n                    model_ids.remove(model)\n        return model_ids\n\n    def update_build_config(self, build_config: dotdict, field_value: Any, field_name: str | None = None):\n        if field_name in {\"base_url\", \"model_name\", \"tool_model_enabled\", \"api_key\"} and field_value:\n            try:\n                if len(self.api_key) == 0:\n                    ids = GOOGLE_GENERATIVE_AI_MODELS\n                else:\n                    try:\n                        ids = self.get_models(tool_model_enabled=self.tool_model_enabled)\n                    except (ImportError, ValueError, requests.exceptions.RequestException) as e:\n                        logger.exception(f\"Error getting model names: {e}\")\n                        ids = GOOGLE_GENERATIVE_AI_MODELS\n                build_config[\"model_name\"][\"options\"] = ids\n                build_config[\"model_name\"][\"value\"] = ids[0]\n            except Exception as e:\n                msg = f\"Error getting model names: {e}\"\n                raise ValueError(msg) from e\n        return build_config\n"
+              },
+              "input_value": {
+                "_input_type": "MessageInput",
+                "advanced": false,
+                "display_name": "Input",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "input_value",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "max_output_tokens": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Max Output Tokens",
+                "dynamic": false,
+                "info": "The maximum number of tokens to generate.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "max_output_tokens",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": ""
+              },
+              "model_name": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": true,
+                "dialog_inputs": {},
+                "display_name": "Model",
+                "dynamic": false,
+                "info": "The name of the model to use.",
+                "name": "model_name",
+                "options": [
+                  "learnlm-2.0-flash-experimental",
+                  "gemma-3n-e4b-it",
+                  "gemma-3n-e2b-it",
+                  "gemma-3-4b-it",
+                  "gemma-3-27b-it",
+                  "gemma-3-1b-it",
+                  "gemma-3-12b-it",
+                  "gemini-robotics-er-1.5-preview",
+                  "gemini-pro-latest",
+                  "gemini-flash-lite-latest",
+                  "gemini-flash-latest",
+                  "gemini-exp-1206",
+                  "gemini-2.5-pro-preview-tts",
+                  "gemini-2.5-pro-preview-06-05",
+                  "gemini-2.5-pro-preview-05-06",
+                  "gemini-2.5-pro-preview-03-25",
+                  "gemini-2.5-pro",
+                  "gemini-2.5-flash-preview-tts",
+                  "gemini-2.5-flash-preview-09-2025",
+                  "gemini-2.5-flash-preview-05-20",
+                  "gemini-2.5-flash-lite-preview-09-2025",
+                  "gemini-2.5-flash-lite-preview-06-17",
+                  "gemini-2.5-flash-lite",
+                  "gemini-2.5-flash-image-preview",
+                  "gemini-2.5-flash-image",
+                  "gemini-2.5-flash",
+                  "gemini-2.5-computer-use-preview-10-2025",
+                  "gemini-2.0-pro-exp-02-05",
+                  "gemini-2.0-pro-exp",
+                  "gemini-2.0-flash-thinking-exp-1219",
+                  "gemini-2.0-flash-thinking-exp-01-21",
+                  "gemini-2.0-flash-thinking-exp",
+                  "gemini-2.0-flash-preview-image-generation",
+                  "gemini-2.0-flash-lite-preview-02-05",
+                  "gemini-2.0-flash-lite-preview",
+                  "gemini-2.0-flash-lite-001",
+                  "gemini-2.0-flash-lite",
+                  "gemini-2.0-flash-exp-image-generation",
+                  "gemini-2.0-flash-exp",
+                  "gemini-2.0-flash-001",
+                  "gemini-2.0-flash"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "refresh_button": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "gemini-2.0-flash"
+              },
+              "n": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "N",
+                "dynamic": false,
+                "info": "Number of chat completions to generate for each prompt. Note that the API may not return the full n completions if duplicates are generated.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "n",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": ""
+              },
+              "stream": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Stream",
+                "dynamic": false,
+                "info": "Stream the response from the model. Streaming works only in Chat.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "stream",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              },
+              "system_message": {
+                "_input_type": "MultilineInput",
+                "advanced": true,
+                "copy_field": false,
+                "display_name": "System Message",
+                "dynamic": false,
+                "info": "System message to pass to the model.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "system_message",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "temperature": {
+                "_input_type": "SliderInput",
+                "advanced": false,
+                "display_name": "Temperature",
+                "dynamic": false,
+                "info": "Controls randomness. Lower values are more deterministic, higher values are more creative.",
+                "max_label": "",
+                "max_label_icon": "",
+                "min_label": "",
+                "min_label_icon": "",
+                "name": "temperature",
+                "placeholder": "",
+                "range_spec": {
+                  "max": 2,
+                  "min": 0,
+                  "step": 0.01,
+                  "step_type": "float"
+                },
+                "required": false,
+                "show": true,
+                "slider_buttons": false,
+                "slider_buttons_options": [],
+                "slider_input": false,
+                "title_case": false,
+                "tool_mode": false,
+                "type": "slider",
+                "value": 0
+              },
+              "tool_model_enabled": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Tool Model Enabled",
+                "dynamic": false,
+                "info": "Whether to use the tool model.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "tool_model_enabled",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              },
+              "top_k": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Top K",
+                "dynamic": false,
+                "info": "Decode using top-k sampling: consider the set of top_k most probable tokens. Must be positive.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "top_k",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": ""
+              },
+              "top_p": {
+                "_input_type": "FloatInput",
+                "advanced": true,
+                "display_name": "Top P",
+                "dynamic": false,
+                "info": "The maximum cumulative probability of tokens to consider when sampling.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "top_p",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "float",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "GoogleGenerativeAIModel"
+        },
+        "dragging": false,
+        "id": "GoogleGenerativeAIModel-dnnOP",
+        "measured": {
+          "height": 531,
+          "width": 320
+        },
+        "position": {
+          "x": 4315.361324155393,
+          "y": 687.2211993723407
+        },
+        "selected": true,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "CustomComponent-mxU6U",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Recebe o conteúdo JSON e converte em scripts SQL",
+            "display_name": "Parser JSON to SQL",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "file_name",
+              "data_nfe",
+              "data_analise"
+            ],
+            "frozen": false,
+            "icon": "braces",
+            "legacy": false,
+            "lf_version": "1.4.3",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output (SQL)",
+                "hidden": false,
+                "method": "build_output",
+                "name": "output",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.custom import Component\nfrom langflow.io import DataInput, Output, MessageTextInput\nfrom langflow.schema import Data\nfrom datetime import datetime\nfrom typing import List\nimport os\n\nclass ParserJSONSQLComponent(Component):\n    display_name = \"Parser JSON to SQL\"\n    description = \"Recebe o conteúdo JSON e converte em scripts SQL\"\n    icon = \"braces\"\n    name = \"ParserJSONSQL\"\n    \n    inputs = [\n        MessageTextInput(\n            name=\"file_name\",\n            display_name=\"File name\",\n            info=\"Informe o nome do arquivo XML da NFe.\"\n        ),\n        DataInput(\n            name=\"data_nfe\",\n            display_name=\"Data NFe\",\n            info=\"Informe os dados da Nota Fiscal\",\n            is_list=True,\n            required=True,\n        ),\n        DataInput(\n            name=\"data_analise\",\n            display_name=\"Analise NFe\",\n            info=\"Informe a análise dos dados da Nota Fiscal\",\n            is_list=True,\n            required=True,\n        ),\n    ]\n    outputs = [\n        Output(\n            name=\"output\",\n            display_name=\"Output (SQL)\",\n            method=\"build_output\",\n        ),\n    ]\n\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)\n        self.data_evento = int(datetime.now().strftime(\"%Y%m%d%H%M%S\"))\n        self.chave_acesso = str\n        self.tipo_nfe = str\n        self.data_emissao = str\n        self.nfe_null = bool\n\n    def build_output(self) -> Data:\n        # Retorna uma lista estruturada dos dados proecssados da NFe\n        fileName = os.path.basename(self.file_name.strip())\n        scripts = list(filter(None, self.parser_sql())) # remove todos os iens da lista que for null, none, \"\", 0\n        return Data(status=self.nfe_null, file_name= fileName, data_evento=self.data_evento, chave_acesso=self.chave_acesso, sql=scripts)\n\n    def parser_sql(self) -> List[str]:\n        sql_list = list()\n        if self.data_nfe:\n            for data_item in self.data_nfe:\n                json_data = data_item.data if hasattr(data_item, 'data') else data_item\n                self.nfe_null = json_data.get(\"NFe\", {}) != None\n                if self.nfe_null:\n                    self.chave_acesso = str(json_data.get(\"NFe\", {}).get(\"chaveAcesso\")).replace(\" \",\"\").replace(\".\",\"\")\n                    self.tipo_nfe = json_data.get(\"NFe\", {}).get(\"tipoNF\")\n                    self.data_emissao = self.data_format(json_data.get(\"NFe\", {}).get(\"dataEmissao\"))\n                    sql_list.append(self.sql_notafiscal(data = json_data))\n                    sql_list.append(self.sql_emitente(data = json_data))\n                    sql_list.append(self.sql_destinatario(data = json_data))\n                    sql_list.append(self.sql_produtos(data = json_data))\n        else:\n            self.log(\"Os dados da NFe está vazio!\")\n        if self.data_analise:\n            for data_item in self.data_analise:\n                json_data = data_item.data if hasattr(data_item, 'data') else data_item\n                if self.nfe_null:\n                    sql_list.append(self.sql_analise(data = json_data))\n                    sql_list.append(self.sql_itens(data = json_data))\n                    sql_list.append(f\"INSERT INTO logs (data, chave, obs, situacao) VALUES ({self.data_evento},'{self.chave_acesso}','Nota fiscal registra com sucesso.','OK');\")\n                else:\n                    sql_list.append(self.sql_logs(data = json_data))\n        else:\n            self.log(\"Os dados da Análise da NFe está vazio!\")\n        return sql_list\n    \n    def sql_notafiscal(self, data: list) -> str:\n        nfe = data.get(\"NFe\", {})\n        impostos = data.get(\"impostos\", {})\n        impostosAdicionais = impostos.get(\"impostosAdicionais\", {})\n        if impostosAdicionais:\n            impostosAdicionais = \"  »  \".join(f\"{chave} = {valor}\" for chave, valor in impostosAdicionais.items())\n        values = (\n            self.data_evento,\n            self.chave_acesso,\n            'PDF',\n            (nfe.get(\"numero\") or '').replace(\".\",\"\"),\n            nfe.get(\"tipoNF\") or '',\n            nfe.get(\"serie\") or '',\n            nfe.get(\"naturezaOperacao\") or '',\n            self.data_format(nfe.get(\"dataEmissao\")) or '',\n            self.data_format(nfe.get(\"dataSaida\")) or '',\n            nfe.get(\"horaSaida\") or '',\n            float(nfe.get(\"valorTotalNota\") or 0),\n            nfe.get(\"dadosAdicionais\") or '',\n            float(impostos.get(\"valorTotalProduto\") or 0),\n            float(impostos.get(\"baseCalculoICMS\") or 0),\n            float(impostos.get(\"valorICMS\") or 0),\n            float(impostos.get(\"valorTotalTributos\") or 0),\n            impostosAdicionais or '',\n        )\n        sql = f\"\"\"INSERT INTO notafiscal (data, chave, origem_dados, numero, tipo_nfe, serie, natureza_operacao, data_emissao, data_saida, hora_saida, valor_nfe, dados_adicionais, valor_produto, base_icms, valor_icms, valor_tributos, impostos_adicionais) VALUES \n({', '.join([repr(v) for v in values])});\"\"\"\n        return sql.strip()\n\n    def sql_emitente(self, data: list) -> str:\n        emit = data.get(\"emitente\", {})\n        values = (\n            self.data_evento,\n            self.chave_acesso,\n            \"emitente\",\n            (emit.get(\"cnpjCpf\") or '').replace(\".\",\"\").replace(\"/\",\"\").replace(\"-\",\"\"),\n            emit.get(\"inscricaoEstadual\") or '',\n            emit.get(\"inscricaoMunicipal\") or '',\n            emit.get(\"razaoSocial\") or '',\n            emit.get(\"endereco\") or '',\n            emit.get(\"cep\") or '',\n            emit.get(\"bairro\") or '',\n            emit.get(\"municipio\") or '',\n            emit.get(\"uf\") or '',\n            emit.get(\"foneFax\") or ''\n        )\n        sql = f\"\"\"INSERT INTO clientes (data, chave, tipo, cnpj_cpf, inscricao_estadual, inscricao_municipal, razao_social, endereco, cep, bairro, municipio, uf, telefone) VALUES \n({', '.join([repr(v) for v in values])});\"\"\"\n        return sql.strip()\n    \n    def sql_destinatario(self, data: list) -> str:\n        dest = data.get(\"destinatario\", {})\n        values = (\n            self.data_evento,\n            self.chave_acesso,\n            \"destinatario\",\n            (dest.get(\"cnpjCpf\") or '').replace(\".\",\"\").replace(\"/\",\"\").replace(\"-\",\"\"),\n            dest.get(\"inscricaoEstadual\") or '',\n            dest.get(\"inscricaoMunicipal\") or '',\n            dest.get(\"razaoSocial\") or '',\n            dest.get(\"endereco\") or '',\n            dest.get(\"cep\") or '',\n            dest.get(\"bairro\") or '',\n            dest.get(\"municipio\") or '',\n            dest.get(\"uf\") or '',\n            dest.get(\"foneFax\") or ''\n        )\n        sql = f\"\"\"INSERT INTO clientes (data, chave, tipo, cnpj_cpf, inscricao_estadual, inscricao_municipal, razao_social, endereco, cep, bairro, municipio, uf, telefone) VALUES \n({', '.join([repr(v) for v in values])});\"\"\"\n        return sql.strip()\n\n    def sql_produtos(self, data: list) -> str:\n        produtos = data.get(\"produtos\", [])\n        values_list = []\n        for prod in produtos:\n            values = (\n                self.data_evento,\n                self.chave_acesso,\n                prod.get(\"codigo\") or '',\n                (prod.get(\"descricao\") or '').replace(\". \",\"· \"),\n                prod.get(\"ncm\") or '',\n                prod.get(\"o/cst\") or '',\n                prod.get(\"cfop\") or '',\n                prod.get(\"unidade\") or '',\n                float(prod.get(\"quantidade\") or 0),\n                float(prod.get(\"valorUnitario\") or 0),\n                float(prod.get(\"valorTotal\") or 0),\n                float(prod.get(\"valorICMS\") or 0),\n                float(prod.get(\"valorIPI\") or 0),\n                float(prod.get(\"aliquotaICMS\") or 0),\n                float(prod.get(\"aliquotaIPI\") or 0)\n            )\n            row = f\"({', '.join([repr(v) for v in values])})\"\n            values_list.append(row)\n        sql = f\"\"\"INSERT INTO produtos (data, chave, codigo, descricao, ncm, orig_cst, cfop, unidade, quantidade, valor_unitario, valor_total, valor_icms, valor_ipi, aliquota_icms, aliquota_ipi) VALUES \n{\",\\n\".join(values_list)};\"\"\"\n        return sql.strip()\n        \n    def sql_analise(self, data: list) -> str:\n        analise = data\n        obs = (analise.get(\"obs\") or \"\").replace(\"'\",\"¨\").replace('\"','¨')\n        ncm  = \"OK\" if analise.get(\"ncm\").upper() == \"OK\" else \"ERRO\"\n        cst  = \"OK\" if analise.get(\"cst\").upper() == \"OK\" else \"ERRO\"\n        cfop = \"OK\" if analise.get(\"cfop\").upper() == \"OK\" else \"ERRO\"\n        tipoNFe = (\"0-ENTRADA\" if self.tipo_nfe == \"0\" else \"1-SAIDA\" if self.tipo_nfe == \"1\" else self.tipo_nfe)\n        values = (\n            self.data_evento,\n            self.chave_acesso,\n            (analise.get(\"numeroNFe\") or '').replace(\".\",\"\"),\n            tipoNFe or '',\n            self.data_emissao or '',\n            analise.get(\"naturezaOperacao\") or '',\n            float(analise.get(\"valorTotalNota\") or 0),\n            float(analise.get(\"baseCalculoICMS\") or 0),\n            float(analise.get(\"valorICMS\") or 0),\n            float(analise.get(\"valorTotalTributos\") or 0),\n            ncm or '',\n            cst or '',\n            cfop or '',\n            analise.get(\"situacao\") or '',\n            obs or '',\n        )\n        sql = f\"\"\"INSERT INTO analise (data, chave, nro_nfe, tipo_nfe, data_emissao, operacao, valor_nfe, base_icms, valor_icms, valor_tributos, ncm, cst, cfop, situacao, obs) VALUES \n({', '.join([repr(v) for v in values])});\"\"\"\n        return sql\n\n    def sql_itens(self, data: list) -> str:\n        itens = data.get(\"produtos\", [])\n        sql = None\n        values_list = []\n        for item in itens:\n            obs = (item.get(\"obs\") or \"\").replace(\"'\",\"¨\").replace('\"','¨')\n            values = (\n                self.data_evento,\n                self.chave_acesso,\n                item.get(\"codigo\") or '',\n                obs or ''\n            )\n            row = f\"({', '.join([repr(v) for v in values])})\"\n            values_list.append(row)\n        if values_list: \n            sql = f\"\"\"INSERT INTO itens (data, chave, codigo, obs) VALUES \n{\",\\n\".join(values_list)};\"\"\".strip()\n        return sql\n\n    def sql_logs(self, data: list) -> str:\n        self.chave_acesso = data.get(\"chave_acesso\")\n        obs = (data.get(\"obs\") or \"\").replace(\"'\",\"¨\").replace('\"','¨')\n        values = (\n            self.data_evento or '',\n            data.get(\"chave_acesso\") or '',\n            obs or '',\n            data.get(\"situacao\") or ''\n        )\n        sql = f\"\"\"INSERT INTO logs (data, chave, obs, situacao) VALUES \n({', '.join([repr(v) for v in values])});\"\"\"\n        return sql.strip()\n\n    def data_format(self, valor: str) -> str:\n        if not valor:\n            return None\n        for fmt in (\"%Y-%m-%d\", \"%d/%m/%Y\"):\n            try:\n                return datetime.strptime(valor.strip(), fmt).strftime(\"%Y-%m-%d\")\n            except ValueError:\n                continue\n        return None\n"
+              },
+              "data_analise": {
+                "_input_type": "DataInput",
+                "advanced": false,
+                "display_name": "Analise NFe",
+                "dynamic": false,
+                "info": "Informe a análise dos dados da Nota Fiscal",
+                "input_types": [
+                  "Data"
+                ],
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "data_analise",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "data_nfe": {
+                "_input_type": "DataInput",
+                "advanced": false,
+                "display_name": "Data NFe",
+                "dynamic": false,
+                "info": "Informe os dados da Nota Fiscal",
+                "input_types": [
+                  "Data"
+                ],
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "data_nfe",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "file_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "File name",
+                "dynamic": false,
+                "info": "Informe o nome do arquivo XML da NFe.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "file_name",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "ParserJSONSQL"
+        },
+        "dragging": false,
+        "id": "CustomComponent-mxU6U",
+        "measured": {
+          "height": 339,
+          "width": 320
+        },
+        "position": {
+          "x": 5311.320691709407,
+          "y": 65.99895727727232
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "JSONValidation-r79Sq",
+          "node": {
+            "base_classes": [
+              "Data",
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Limpa as strings JSON confusas e às vezes incorretas produzidas pelos LLMs para que fiquem totalmente compatíveis com a especificação JSON.",
+            "display_name": "JSON validation",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "json_str",
+              "remove_chars",
+              "remove_control_chars",
+              "normalize_unicode",
+              "validate_json"
+            ],
+            "frozen": false,
+            "icon": "braces",
+            "legacy": false,
+            "lf_version": "1.4.3",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Validate JSON String",
+                "hidden": null,
+                "method": "validate_string",
+                "name": "output",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Validate JSON Data",
+                "hidden": false,
+                "method": "validate_data",
+                "name": "data",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.custom import Component\nfrom langflow.inputs import BoolInput, MessageTextInput\nfrom langflow.schema.message import Message\nfrom langflow.template import Output\nfrom json_repair import repair_json\nimport unicodedata\nimport json\n\nclass JSONValidation(Component):\n    icon = \"braces\"\n    display_name = \"JSON validation\"\n    description = (\"Limpa as strings JSON confusas e às vezes incorretas produzidas pelos LLMs para que fiquem totalmente compatíveis com a especificação JSON.\")\n\n    inputs = [\n        MessageTextInput(\n            name=\"json_str\", \n            display_name=\"JSON String\", \n            info=\"The JSON string to be cleaned.\", \n            required=True\n        ),\n        MessageTextInput(\n            name=\"remove_chars\", \n            display_name=\"Remove specific characters\", \n            info=\"Remove caracteres especificos, use (;) para mais de um.\"\n        ),\n        BoolInput(\n            name=\"remove_control_chars\",\n            display_name=\"Remove Control Characters\",\n            info=\"Remove control characters from the JSON string.\",\n            required=False,\n        ),\n        BoolInput(\n            name=\"normalize_unicode\",\n            display_name=\"Normalize Unicode\",\n            info=\"Normalize Unicode characters in the JSON string.\",\n            required=False,\n        ),\n        BoolInput(\n            name=\"validate_json\",\n            display_name=\"Validate JSON\",\n            info=\"Validate the JSON string to ensure it is well-formed.\",\n            required=False,\n        ),\n    ]\n    outputs = [\n        Output(\n            display_name=\"Validate JSON String\", \n            name=\"output\", \n            method=\"validate_string\"\n        ),\n        Output(\n            name=\"data\", \n            display_name=\"Validate JSON Data\", \n            method=\"validate_data\"\n        ),\n    ]\n\n    def validate_string(self) -> Message:\n        json_str = self.json_str.replace(\"```json\",\"\").replace(\"```\",\"\")\n        \n\n        with open(\"/dbase/meu_arquivo.txt\", \"w\", encoding=\"utf-8\") as arquivo:\n            arquivo.writelines(json_str)        \n\n        \n        \n        remove_control_chars = self.remove_control_chars\n        normalize_unicode = self.normalize_unicode\n        validate_json = self.validate_json\n        start = json_str.find(\"{\")\n        end = json_str.rfind(\"}\")\n        if start == -1 or end == -1:\n            msg = \"Invalid JSON string: Missing '{' or '}'\"\n            raise ValueError(msg)\n        try:\n            if self.remove_chars:\n                chars = list(self.remove_chars.strip()) \n                for c in chars:\n                    json_str = json_str.replace(c, \"\")\n            json_str = json_str[start : end + 1]\n            if remove_control_chars:\n                json_str = self._remove_control_characters(json_str)\n            if normalize_unicode:\n                json_str = self._normalize_unicode(json_str)\n            if validate_json:\n                json_str = self._validate_json(json_str)\n            cleaned_json_str = repair_json(json_str)\n            result = str(cleaned_json_str)\n            self.status = result\n            return result.strip()\n        except Exception as e:\n            msg = f\"Error cleaning JSON string: {e}\"\n            raise ValueError(msg) from e\n\n    def validate_data(self) -> Data:\n        json_data = json.loads(self.validate_string())\n        return Data(data=json_data)\n\n    def _remove_control_characters(self, s: str) -> str:\n        \"\"\"Remove control characters from the string.\"\"\"\n        return s.translate(self.translation_table)\n\n    def _normalize_unicode(self, s: str) -> str:\n        \"\"\"Normalize Unicode characters in the string.\"\"\"\n        return unicodedata.normalize(\"NFC\", s)\n\n    def _validate_json(self, s: str) -> str:\n        \"\"\"Validate the JSON string.\"\"\"\n        try:\n            json.loads(s)\n        except json.JSONDecodeError as e:\n            msg = f\"Invalid JSON string: {e}\"\n            raise ValueError(msg) from e\n        return s\n\n    def __init__(self, *args, **kwargs):\n        # Create a translation table that maps control characters to None\n        super().__init__(*args, **kwargs)\n        self.translation_table = str.maketrans(\"\", \"\", \"\".join(chr(i) for i in range(32)) + chr(127))\n"
+              },
+              "json_str": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "JSON String",
+                "dynamic": false,
+                "info": "The JSON string to be cleaned.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "json_str",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "normalize_unicode": {
+                "_input_type": "BoolInput",
+                "advanced": false,
+                "display_name": "Normalize Unicode",
+                "dynamic": false,
+                "info": "Normalize Unicode characters in the JSON string.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "normalize_unicode",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "remove_chars": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Remove specific characters",
+                "dynamic": false,
+                "info": "Remove caracteres especificos, use (;) para mais de um.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "remove_chars",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "remove_control_chars": {
+                "_input_type": "BoolInput",
+                "advanced": false,
+                "display_name": "Remove Control Characters",
+                "dynamic": false,
+                "info": "Remove control characters from the JSON string.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "remove_control_chars",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "validate_json": {
+                "_input_type": "BoolInput",
+                "advanced": false,
+                "display_name": "Validate JSON",
+                "dynamic": false,
+                "info": "Validate the JSON string to ensure it is well-formed.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "validate_json",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "JSONValidation"
+        },
+        "dragging": false,
+        "id": "JSONValidation-r79Sq",
+        "measured": {
+          "height": 546,
+          "width": 320
+        },
+        "position": {
+          "x": 4787.08775003433,
+          "y": 515.3860791578322
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "CustomComponent-IGgF9",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Executa um lista de scripts SQL em bancos SQLite",
+            "display_name": "SQLite Run Scripts",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "sql_list",
+              "dbase_name"
+            ],
+            "frozen": false,
+            "icon": "database",
+            "legacy": false,
+            "lf_version": "1.4.3",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output (SQL)",
+                "hidden": false,
+                "method": "build_output",
+                "name": "output",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.custom import Component\nfrom langflow.io import DataInput, Output, MessageTextInput\nfrom langflow.schema import Data\nimport sqlite3\n\nclass SQLiteRunSQLComponent(Component):\n    display_name = \"SQLite Run Scripts\"\n    description = \"Executa um lista de scripts SQL em bancos SQLite\"\n    icon = \"database\"\n    name = \"SQLiteRunSQL\"\n    \n    inputs = [\n        DataInput(\n            name=\"sql_list\",\n            display_name=\"SQL List\",\n            info=\"Informe a lista de scripts de SQL\",\n            is_list=True,\n            required=True,\n        ),\n        MessageTextInput(\n            name=\"dbase_name\",\n            display_name=\"File name Database\",\n            info=\"Informe o nome do banco de dados SQLite\"\n        ),\n    ]\n    outputs = [\n        Output(\n            name=\"output\",\n            display_name=\"Output (SQL)\",\n            method=\"build_output\",\n        ),\n    ]\n\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)\n        self.data_evento = int\n        self.chave_acesso = str\n        self.situacao = bool\n        self.fileName = str\n\n    def build_output(self) -> Data:\n        result = self.sql_process()[0]\n        return Data(status=result.get(\"status\"), file_name=self.fileName, data_evento=self.data_evento, msg=result.get(\"msg\"))\n\n    def sql_process(self) -> list:\n        sql = []\n        if self.sql_list:\n            for data_item in self.sql_list:\n                json_data = data_item.data if hasattr(data_item, 'data') else data_item\n                self.situacao = json_data.get(\"status\")\n                self.fileName = json_data.get(\"file_name\")\n                self.data_evento = json_data.get(\"data_evento\")\n                self.chave_acesso = json_data.get(\"chave_acesso\")\n                sql = json_data.get(\"sql\", [])\n                sql = self.sql_execute(sql)\n        else:\n            self.log(\"Os dados da NFe está vazio!\")\n        return sql\n        \n    def sql_execute(self, sql: list) -> list:\n        msg = list()\n        if self.dbase_name:\n            conn = sqlite3.connect(self.dbase_name)\n            cursor = conn.cursor()\n            try:\n                for script in sql:\n                    cursor.execute(script)\n                conn.commit()\n                msg.append({\"status\": self.situacao, \"msg\":\"Scripts executados no banco com sucesso!\"}) \n            except Exception as e:\n                conn.rollback()\n                cursor.execute(f\"INSERT INTO logs (data, chave, obs, situacao) VALUES ({self.data_evento},'{self.chave_acesso}','Problema na execução dos scripts. Erro: {e}','ERRO');\") \n                conn.commit()\n                msg.append({\"status\": False, \"msg\":f\"Erro: {e}\"}) \n            finally:\n                conn.close()\n        else:\n            self.log(\"Informe o path do database SQLite.\")\n        return msg\n"
+              },
+              "dbase_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "File name Database",
+                "dynamic": false,
+                "info": "Informe o nome do banco de dados SQLite",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "dbase_name",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "/dbase/analisenfe.db"
+              },
+              "sql_list": {
+                "_input_type": "DataInput",
+                "advanced": false,
+                "display_name": "SQL List",
+                "dynamic": false,
+                "info": "Informe a lista de scripts de SQL",
+                "input_types": [
+                  "Data"
+                ],
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "sql_list",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "SQLiteRunSQL"
+        },
+        "dragging": false,
+        "id": "CustomComponent-IGgF9",
+        "measured": {
+          "height": 294,
+          "width": 320
+        },
+        "position": {
+          "x": 5822.635559173852,
+          "y": 975.529588928545
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "CustomComponent-LroWa",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Move os arquivos que foram processados com sucesso.",
+            "display_name": "Move Files processed",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "file_list",
+              "file_folder"
+            ],
+            "frozen": false,
+            "icon": "FolderSync",
+            "legacy": false,
+            "lf_version": "1.4.3",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output",
+                "hidden": null,
+                "method": "build_output",
+                "name": "output",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.io import DataInput, Output, MessageTextInput\nfrom langflow.custom import Component\nfrom langflow.schema import Data\nimport shutil\nimport os\n\nclass MoveFileImportsComponent(Component):\n    display_name = \"Move Files processed\"\n    description = \"Move os arquivos que foram processados com sucesso.\"\n    icon = \"FolderSync\"\n    name = \"MoveFileImports\"\n    \n    inputs = [\n        DataInput(\n            name=\"file_list\",\n            display_name=\"File List\",\n            info=\"Informe a lista dos arquivso que foram importados\",\n            #is_list=True,\n            required=True,\n        ),\n        MessageTextInput(\n            name=\"file_folder\",\n            display_name=\"File folder\",\n            info=\"Informe a pasta dos arquivos\"\n        ),\n    ]\n    outputs = [\n        Output(\n            name=\"output\",\n            display_name=\"Output\",\n            method=\"build_output\",\n        ),\n    ]\n\n    def build_output(self) -> Message: #Data:\n        flist = self.file_list\n        fld_origem = self.file_folder.strip()\n        msg = []\n        for file in flist:\n            file = file.data if hasattr(file, 'data') else file\n            fname = file.get(\"file_name\")\n            devento = str(file.get(\"data_evento\"))\n            if file.get(\"status\"):\n                fld_destino = fld_origem + \"/olds\"\n            else:\n                fld_destino = fld_origem + \"/erro\"\n            msg.append(self.mover_arquivos(arquivo=fname, pasta_origem=fld_origem, pasta_destino=fld_destino, data_evento=devento))\n        return Data(info = f\"[{len(flist)}] Arquivo(s) registrado(s) com sucesso.\", messages= msg)\n        #return f\"[{len(flist)}] Arquivo(s) registrado(s) com sucesso.\"\n\n    def mover_arquivos(self, arquivo, pasta_origem, pasta_destino, data_evento) -> str:\n        if not os.path.exists(pasta_destino):\n            os.makedirs(pasta_destino)\n        caminho_origem = os.path.join(pasta_origem, arquivo)\n        caminho_destino = os.path.join(pasta_destino, data_evento+\"-\"+arquivo)\n        msg = str\n        if os.path.exists(caminho_origem):\n            try:\n                shutil.move(caminho_origem, caminho_destino)\n                msg = f\"Arquivo {arquivo} movido com sucesso para {pasta_destino}.\"\n            except Exception as e:\n                msg = f\"Erro ao mover o arquivo {arquivo}: {e}\"\n        else:\n            msg = f\"Arquivo {arquivo} não encontrado em {pasta_origem}.\"\n        return msg\n"
+              },
+              "file_folder": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "File folder",
+                "dynamic": false,
+                "info": "Informe a pasta dos arquivos",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "file_folder",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "/dbase/NFe"
+              },
+              "file_list": {
+                "_input_type": "DataInput",
+                "advanced": false,
+                "display_name": "File List",
+                "dynamic": false,
+                "info": "Informe a lista dos arquivso que foram importados",
+                "input_types": [
+                  "Data"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "file_list",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "MoveFileImports"
+        },
+        "dragging": false,
+        "id": "CustomComponent-LroWa",
+        "measured": {
+          "height": 294,
+          "width": 320
+        },
+        "position": {
+          "x": 1782.6317138121694,
+          "y": 1081.6881885636362
+        },
+        "selected": false,
+        "type": "genericNode"
+      }
+    ],
+    "viewport": {
+      "x": -1873.720471371501,
+      "y": -88.87670588460111,
+      "zoom": 0.748981945062841
+    }
+  },
+  "description": "Chain the Words, Master Language!",
+  "endpoint_name": null,
+  "id": "290a261d-0b91-4446-a3bf-f6d228561632",
+  "is_component": false,
+  "last_tested_version": "1.4.3",
+  "name": "Agente-analise-nfe-pdf",
+  "tags": []
+}

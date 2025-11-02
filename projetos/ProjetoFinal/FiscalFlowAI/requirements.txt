@@ -1,0 +1,28 @@
+# Requisitos do sistema FiscalFlow AI
+# Baseado no arquivo app.py
+
+# Framework principal da interface web
+streamlit
+
+# Manipulação e análise de dados
+pandas
+numpy
+
+# Visualização e gráficos interativos
+plotly
+
+# Exibição de tabelas dinâmicas
+streamlit-aggrid
+
+# Requisições HTTP para comunicação com APIs de agentes
+requests
+
+# Dependência opcional para encoding/locale
+babel
+
+# Banco de dados SQLite (biblioteca padrão do Python, incluída automaticamente)
+# sqlite3 (não precisa ser instalado manualmente)
+
+# Leitura de arquivos e formatação de dados (já inclusos no Python)
+# os, json, datetime, locale, base64, re
+

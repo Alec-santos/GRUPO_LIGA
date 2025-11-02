@@ -1,0 +1,6 @@
+{
+    "path": "dbase/",
+    "dbname": "analisenfe.db",
+    "endpoint_xml":"http://192.168.0.16:7860/api/v1/run/6bcdf7c8-e5da-466f-b1e1-4da132aac765",
+    "endpoint_pdf":"http://192.168.0.16:7860/api/v1/run/290a261d-0b91-4446-a3bf-f6d228561632"
+}
