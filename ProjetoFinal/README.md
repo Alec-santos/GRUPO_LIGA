@@ -2,7 +2,7 @@
 
 ## Projeto Final do curso de IA Generativa - 02/11
 
-* O FiscalFlow AI é um sistema desenvolvido para automatizar o processo de análise e auditoria de Notas Fiscais Eletrônicas (NFe), unindo tecnologia de data analytics com agentes de inteligência artificial.
+* O sistema FiscalFlow AI é um sistema desenvolvido para automatizar o processo de análise e auditoria de Notas Fiscais Eletrônicas (NFe), unindo tecnologia de data analytics com agentes de inteligência artificial.
 
   * 📂 [FiscalFlowAI](./FiscalFlowAI) - Pasta do sistema web feito em python/streamlit - todos os arquivos do dashboard.
 	
