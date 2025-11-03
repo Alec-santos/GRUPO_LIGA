@@ -1,14 +1,15 @@
 Grupo:
 # L.I.G.A. - Laboratório de Inteligência Generativa Artificial
 
-
 ## Repositório do curso I2A2
 
+---
 
 ## Projeto Final do curso de IA Generativa - 02/11
 
 * [ProjetoFinal](./ProjetoFinal) - Projeto final do curso de IA Generativa (FiscalFlow AI).
 
+---
 
 ## Desafio 2 - 18/06
 
