@@ -1,4 +1,3 @@
-Grupo:
 # L.I.G.A. - Laboratório de Inteligência Generativa Artificial
 
 Repositório do curso I2A2
